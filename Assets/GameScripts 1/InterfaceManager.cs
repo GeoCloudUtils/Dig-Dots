@@ -9,6 +9,7 @@ using ScriptUtils.GameUtils;
 
 public class InterfaceManager : MonoBehaviour
 {
+    public Level[] Levels;
     public GameObject loadingScreenPrefab;
     public Button settingButton;
     public Button rateButton;
@@ -19,10 +20,11 @@ public class InterfaceManager : MonoBehaviour
     public GameObject settingPanel;
 
     public Transform cloudsTransform;
-    public Transform level;
     public GameObject[] AllInterfaceObjects;
+    private Level CurrentLevel;
 
     public bool canClick = true;
+    public int currentLevelIndex = 0;
     void Start()
     {
         settingButton.onClick.AddListener(OpenSettingPanel);
@@ -31,9 +33,21 @@ public class InterfaceManager : MonoBehaviour
         giftButton.onClick.AddListener(showGifts);
         playButton.onClick.AddListener(Play);
         reloadButton.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(Reload);
+
+    }
+    private void Awake()
+    {
+        ShowCurrentLevel();
     }
 
-    private void Reload()
+    private void ShowCurrentLevel()
+    {
+        if (CurrentLevel != null)
+            Destroy(CurrentLevel.gameObject);
+        CurrentLevel = Instantiate(Levels[currentLevelIndex], Levels[currentLevelIndex].levelPosition, Quaternion.identity);
+    }
+
+    public void Reload()
     {
         reloadButton.SetActive(false);
         Navigator.getInstance().setLoadingScreenPrefab<LoadingScreen>(loadingScreenPrefab);
@@ -75,8 +89,10 @@ public class InterfaceManager : MonoBehaviour
     private void ShowLevel()
     {
         cloudsTransform.DOMoveY(0.5f, 1.0f);
-        level.transform.DOMoveY(0f, 1.0f).OnComplete(() =>
+        CurrentLevel.transform.DOMoveY(CurrentLevel.levelY, 1.0f).OnComplete(() =>
         {
+            RuntimeCircleClipper clipper = FindObjectOfType<RuntimeCircleClipper>();
+            clipper.canDig = true;
             reloadButton.gameObject.SetActive(true);
         });
     }

@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: 69adb0c52003fdd4f9bec71a5a01d2d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3439564032412178875
+    second: UGC_POSTCARD_MISC_1_0
+  - first:
+      213: 6652395526130894360
+    second: UGC_POSTCARD_MISC_1_1
+  - first:
+      213: 1380348319367370838
+    second: UGC_POSTCARD_MISC_1_2
+  - first:
+      213: 8250610526485500824
+    second: UGC_POSTCARD_MISC_1_3
+  - first:
+      213: 6000912766554769634
+    second: UGC_POSTCARD_MISC_1_4
+  - first:
+      213: -3373419125964788248
+    second: UGC_POSTCARD_MISC_1_5
+  - first:
+      213: 64034271765417976
+    second: UGC_POSTCARD_MISC_1_6
+  - first:
+      213: 6082931137797230537
+    second: UGC_POSTCARD_MISC_1_7
+  - first:
+      213: -2054005184591129156
+    second: UGC_POSTCARD_MISC_1_8
+  - first:
+      213: 8701164283628808940
+    second: UGC_POSTCARD_MISC_1_9
+  - first:
+      213: -4696239250361357391
+    second: UGC_POSTCARD_MISC_1_10
+  - first:
+      213: -3884434123440223011
+    second: UGC_POSTCARD_MISC_1_11
+  - first:
+      213: 2057698360638546976
+    second: UGC_POSTCARD_MISC_1_12
+  - first:
+      213: -5776263744913559262
+    second: UGC_POSTCARD_MISC_1_13
+  - first:
+      213: -2667966861328279580
+    second: UGC_POSTCARD_MISC_1_14
+  - first:
+      213: 1601367146324592836
+    second: UGC_POSTCARD_MISC_1_15
+  - first:
+      213: 8827303104673106115
+    second: UGC_POSTCARD_MISC_1_16
+  - first:
+      213: -6017650949930408782
+    second: UGC_POSTCARD_MISC_1_17
+  - first:
+      213: 9084488978913427604
+    second: UGC_POSTCARD_MISC_1_18
+  - first:
+      213: 6622351523040922384
+    second: UGC_POSTCARD_MISC_1_19
+  - first:
+      213: 5877118278560034068
+    second: UGC_POSTCARD_MISC_1_20
+  - first:
+      213: -646442219870323632
+    second: UGC_POSTCARD_MISC_1_21
+  - first:
+      213: 3085158994161900351
+    second: UGC_POSTCARD_MISC_1_22
+  - first:
+      213: 3645423913456659785
+    second: UGC_POSTCARD_MISC_1_23
+  - first:
+      213: 1430695626708355730
+    second: UGC_POSTCARD_MISC_1_24
+  - first:
+      213: -5352747582354742032
+    second: UGC_POSTCARD_MISC_1_25
+  - first:
+      213: 252866588183963308
+    second: UGC_POSTCARD_MISC_1_26
+  - first:
+      213: -1812670101763802271
+    second: UGC_POSTCARD_MISC_1_27
+  - first:
+      213: 3753745147836264582
+    second: UGC_POSTCARD_MISC_1_28
+  - first:
+      213: -1150696415881037388
+    second: UGC_POSTCARD_MISC_1_29
+  - first:
+      213: 1451603655233551691
+    second: UGC_POSTCARD_MISC_1_30
+  - first:
+      213: 2128390330349099968
+    second: UGC_POSTCARD_MISC_1_31
+  - first:
+      213: 4673402794167714335
+    second: UGC_POSTCARD_MISC_1_32
+  - first:
+      213: 8593487125385398125
+    second: UGC_POSTCARD_MISC_1_33
+  - first:
+      213: 4339960432638544067
+    second: UGC_POSTCARD_MISC_1_34
+  - first:
+      213: 6650857874359994361
+    second: UGC_POSTCARD_MISC_1_35
+  - first:
+      213: -455465533400784803
+    second: UGC_POSTCARD_MISC_1_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 672
+        width: 447
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9532e8349cbbf20800000000000000
+      internalID: 3439564032412178875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_1
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 738
+        width: 222
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8160e603c7e025c50800000000000000
+      internalID: 6652395526130894360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_2
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 805
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658133aab7bf72310800000000000000
+      internalID: 1380348319367370838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 805
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893544b6f8e008270800000000000000
+      internalID: 8250610526485500824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_4
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 783
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88a92fd56874350800000000000000
+      internalID: 6000912766554769634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 783
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed2c569d253f21d0800000000000000
+      internalID: -3373419125964788248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_6
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 783
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff4706b4de73e000800000000000000
+      internalID: 64034271765417976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 783
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf019d14a9ea6450800000000000000
+      internalID: 6082931137797230537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 742
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb592adca25be73e0800000000000000
+      internalID: -2054005184591129156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 684
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceae202b0deb0c870800000000000000
+      internalID: 8701164283628808940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 686
+        width: 75
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbe6f5984b93deb0800000000000000
+      internalID: -4696239250361357391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_11
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 614
+        width: 222
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc80feceb7b71ac0800000000000000
+      internalID: -3884434123440223011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_12
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 701
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024a3c0c1c96e8c10800000000000000
+      internalID: 2057698360638546976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 641
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221b57b5ab696dfa0800000000000000
+      internalID: -5776263744913559262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 407
+        width: 289
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7930e664a79fad0800000000000000
+      internalID: -2667966861328279580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 573
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c888a76fe2393610800000000000000
+      internalID: 1601367146324592836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 593
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c84eb69761e08a70800000000000000
+      internalID: 8827303104673106115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 474
+        width: 222
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b42b1b08520d7ca0800000000000000
+      internalID: -6017650949930408782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 474
+        width: 222
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490061a3896921e70800000000000000
+      internalID: 9084488978913427604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 281
+        width: 222
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b0f9c9f9157eb50800000000000000
+      internalID: 6622351523040922384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_20
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 270
+        width: 222
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da680afe7bf8150800000000000000
+      internalID: 5877118278560034068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 265
+        width: 134
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c70dcd9306707f0800000000000000
+      internalID: -646442219870323632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 334
+        width: 176
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b1f9262cfa0da20800000000000000
+      internalID: 3085158994161900351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_23
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 364
+        width: 93
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d6c492cb5279230800000000000000
+      internalID: 3645423913456659785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 141
+        width: 222
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a08a3a71adad310800000000000000
+      internalID: 1430695626708355730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 37
+        width: 134
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f42a651f6837b5b0800000000000000
+      internalID: -5352747582354742032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_26
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 145
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6254c72dc528300800000000000000
+      internalID: 252866588183963308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_27
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 157
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bb569752a18d6e0800000000000000
+      internalID: -1812670101763802271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_28
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 256
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6807022e25bf71430800000000000000
+      internalID: 3753745147836264582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_29
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 113
+        width: 95
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b97817d4b7e700f0800000000000000
+      internalID: -1150696415881037388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_30
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 130
+        width: 95
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dbad065d1252410800000000000000
+      internalID: 1451603655233551691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_31
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 149
+        width: 95
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb95df8abf898d10800000000000000
+      internalID: 2128390330349099968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_32
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 17
+        width: 164
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f124fae94134bd040800000000000000
+      internalID: 4673402794167714335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_33
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 148
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d674d72a203324770800000000000000
+      internalID: 8593487125385398125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_34
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 222
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8cba6f403aa3c30800000000000000
+      internalID: 4339960432638544067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_35
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 97
+        width: 95
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f746dcbff79c4c50800000000000000
+      internalID: 6650857874359994361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGC_POSTCARD_MISC_1_36
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 3
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d506632b28cdda9f0800000000000000
+      internalID: -455465533400784803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
