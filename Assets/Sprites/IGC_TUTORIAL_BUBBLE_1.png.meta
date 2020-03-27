@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: c5157838fb4d5d149b2e7a4f18de7aa5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5848652424171627449
+    second: IGC_TUTORIAL_BUBBLE_1_0
+  - first:
+      213: -3458069117874588541
+    second: IGC_TUTORIAL_BUBBLE_1_1
+  - first:
+      213: -8303316687453059812
+    second: IGC_TUTORIAL_BUBBLE_1_2
+  - first:
+      213: 573878242959016964
+    second: IGC_TUTORIAL_BUBBLE_1_3
+  - first:
+      213: 8599626728190331877
+    second: IGC_TUTORIAL_BUBBLE_1_4
+  - first:
+      213: 2447907597098384185
+    second: IGC_TUTORIAL_BUBBLE_1_5
+  - first:
+      213: 3432045522278123906
+    second: IGC_TUTORIAL_BUBBLE_1_6
+  - first:
+      213: 3767947824231150507
+    second: IGC_TUTORIAL_BUBBLE_1_7
+  - first:
+      213: -5998310836646273742
+    second: IGC_TUTORIAL_BUBBLE_1_8
+  - first:
+      213: -1445854335288216283
+    second: IGC_TUTORIAL_BUBBLE_1_9
+  - first:
+      213: -718058529381105742
+    second: IGC_TUTORIAL_BUBBLE_1_10
+  - first:
+      213: 5122748965375263583
+    second: IGC_TUTORIAL_BUBBLE_1_11
+  - first:
+      213: 1361767191519108513
+    second: IGC_TUTORIAL_BUBBLE_1_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b32a7d64669a2150800000000000000
+      internalID: 5848652424171627449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 197
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384365c75787200d0800000000000000
+      internalID: -3458069117874588541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 197
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1589c23771b4cc80800000000000000
+      internalID: -8303316687453059812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 265
+        width: 95
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c5efa833d6f700800000000000000
+      internalID: 573878242959016964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb4dbe42f2085770800000000000000
+      internalID: 8599626728190331877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 97
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b77007df6b8f120800000000000000
+      internalID: 2447907597098384185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 170
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2898b50083311af20800000000000000
+      internalID: 3432045522278123906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f08b25907a4430800000000000000
+      internalID: 3767947824231150507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d92511318b1cca0800000000000000
+      internalID: -5998310836646273742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 75
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525ff2c742b4febe0800000000000000
+      internalID: -1445854335288216283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 75
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfbc4c6291f806f0800000000000000
+      internalID: -718058529381105742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 43
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5341b2ea09a71740800000000000000
+      internalID: 5122748965375263583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IGC_TUTORIAL_BUBBLE_1_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 43
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1745bb08f5e210800000000000000
+      internalID: 1361767191519108513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

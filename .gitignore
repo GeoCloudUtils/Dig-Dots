@@ -2,3 +2,10 @@ Library
 Logs
 Packages
 Temp
+.sln
+obj
+.csproj
+sln
+*.csproj
+*.ide-wal
+*.vs

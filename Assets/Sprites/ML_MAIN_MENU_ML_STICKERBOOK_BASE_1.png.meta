@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: 096bf89b8ff97424a959d445f3523fc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5642390717196603213
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_0
+  - first:
+      213: -2780720206998868542
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_1
+  - first:
+      213: -3995598525437049467
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_2
+  - first:
+      213: 1545121092948792767
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_3
+  - first:
+      213: -5240298782225507290
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_4
+  - first:
+      213: -9162081688469874099
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_5
+  - first:
+      213: 4710993038628407390
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_6
+  - first:
+      213: 3526620959768728359
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_7
+  - first:
+      213: 1830441564200676493
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_8
+  - first:
+      213: -6036003264574644398
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_9
+  - first:
+      213: -7731469050752986383
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_10
+  - first:
+      213: -9209011957341523721
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_11
+  - first:
+      213: 1769712639380008802
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_12
+  - first:
+      213: -1111553269049996329
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_13
+  - first:
+      213: -1128430811904025699
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_14
+  - first:
+      213: 3069000413609220040
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_15
+  - first:
+      213: 7539023555388525717
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_16
+  - first:
+      213: 3384193621315983257
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_17
+  - first:
+      213: 6248839690711372414
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_18
+  - first:
+      213: 4181656300925204320
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_19
+  - first:
+      213: 5342599375974823003
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_20
+  - first:
+      213: 2522635058715157892
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_21
+  - first:
+      213: -5986901302557641854
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_22
+  - first:
+      213: -7482697968992044209
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_23
+  - first:
+      213: 293938420971775554
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_24
+  - first:
+      213: -6624356908607091328
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_25
+  - first:
+      213: -9166394515391869527
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_26
+  - first:
+      213: -926296363378642394
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_27
+  - first:
+      213: -7435229088740960124
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_28
+  - first:
+      213: 4182876961400751148
+    second: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 258
+        width: 880
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0f881998332b1b0800000000000000
+      internalID: -5642390717196603213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 207
+        width: 208
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cde41264b5e869d0800000000000000
+      internalID: -2780720206998868542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 186
+        width: 84
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585004a8f48cc88c0800000000000000
+      internalID: -3995598525437049467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 137
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb51d28927f517510800000000000000
+      internalID: 1545121092948792767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 146
+        width: 87
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c59889508b647b0800000000000000
+      internalID: -5240298782225507290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 151
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a54a34f3fb9d080800000000000000
+      internalID: -9162081688469874099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 152
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c8ce653fc06140800000000000000
+      internalID: 4710993038628407390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_7
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 212
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723567cf31311f030800000000000000
+      internalID: 3526620959768728359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 208
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8caa4097e8076910800000000000000
+      internalID: 1830441564200676493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 155
+        width: 202
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f1eefc20fcb3ca0800000000000000
+      internalID: -6036003264574644398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_10
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 152
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f211f58cdd44b490800000000000000
+      internalID: -7731469050752986383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_11
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 163
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0755e8a64033080800000000000000
+      internalID: -9209011957341523721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_12
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 163
+        width: 5
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fa3c8e4484f8810800000000000000
+      internalID: 1769712639380008802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_13
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 120
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbc959e038f290f0800000000000000
+      internalID: -1111553269049996329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_14
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 151
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bdadeb7220750f0800000000000000
+      internalID: -1128430811904025699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 114
+        width: 193
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c754bcad97479a20800000000000000
+      internalID: 3069000413609220040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 35
+        width: 134
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c4c3ceafdff9860800000000000000
+      internalID: 7539023555388525717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 20
+        width: 131
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979ea91b2217fe20800000000000000
+      internalID: 3384193621315983257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_18
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 21
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e729637479658b650800000000000000
+      internalID: 6248839690711372414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_19
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 47
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067bb65104a380a30800000000000000
+      internalID: 4181656300925204320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_20
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 83
+        width: 83
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54f33e73d9b42a40800000000000000
+      internalID: 5342599375974823003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_21
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 109
+        width: 43
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e9ac6833320320800000000000000
+      internalID: 2522635058715157892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_22
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 77
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2837abb3cf04aeca0800000000000000
+      internalID: -5986901302557641854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_23
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 86
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b31bc97dd182890800000000000000
+      internalID: -7482697968992044209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 139
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246acdfbf67441400800000000000000
+      internalID: 293938420971775554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 69
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dc11d2d7e8114a0800000000000000
+      internalID: -6624356908607091328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_26
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 9
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad8afef0cc6ac080800000000000000
+      internalID: -9166394515391869527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_27
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 20
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62274108d522523f0800000000000000
+      internalID: -926296363378642394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48891fd8982c0d890800000000000000
+      internalID: -7435229088740960124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ML_MAIN_MENU_ML_STICKERBOOK_BASE_1_29
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 4
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24057f3f609c0a30800000000000000
+      internalID: 4182876961400751148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

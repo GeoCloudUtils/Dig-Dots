@@ -53,7 +53,7 @@ namespace ScriptUtils.GameUtils
 
         public void startFadeIn()
         {
-            Color maxAlpha = Color.black;
+            Color maxAlpha = Color.white;
             foreach (SpriteRenderer charRender in characters)
             {
                 charRender.DOColor(maxAlpha, duration).SetEase(Ease.Linear);
@@ -82,7 +82,7 @@ namespace ScriptUtils.GameUtils
             //Destroy(gameObject);
             CancelInvoke();
             //Debug.Log("Canceled Invoke");
-            Color zeroAlpha = Color.black;
+            Color zeroAlpha = Color.white;
             zeroAlpha.a = 0f;
             if (animObject != null)
                 animObject.GetComponent<SpriteRenderer>().DOColor(zeroAlpha, duration).SetEase(Ease.Linear);
@@ -120,12 +120,12 @@ namespace ScriptUtils.GameUtils
             {
                 foreach (SpriteRenderer charRender in allRenderers)
                 {
-                    charRender.color = Color.black;
+                    charRender.color = Color.white;
                 }
             }
             else
             {
-                Color zeroAlpha = Color.black;
+                Color zeroAlpha = Color.white;
                 foreach (SpriteRenderer charRender in allRenderers)
                 {
                     charRender.color = zeroAlpha;

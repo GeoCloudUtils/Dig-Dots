@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 0b1c211ea4864d54e9ba1635a292de9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4178035580423215192
+    second: DAILY_CHALLENGE_SHEET_1_1_0
+  - first:
+      213: -8816444498780455947
+    second: DAILY_CHALLENGE_SHEET_1_1_1
+  - first:
+      213: 6137151203680074469
+    second: DAILY_CHALLENGE_SHEET_1_1_2
+  - first:
+      213: -8761557204178207175
+    second: DAILY_CHALLENGE_SHEET_1_1_3
+  - first:
+      213: 7907626032354611871
+    second: DAILY_CHALLENGE_SHEET_1_1_4
+  - first:
+      213: -7368203304400758864
+    second: DAILY_CHALLENGE_SHEET_1_1_5
+  - first:
+      213: -60495180939980764
+    second: DAILY_CHALLENGE_SHEET_1_1_6
+  - first:
+      213: 5712490138155282387
+    second: DAILY_CHALLENGE_SHEET_1_1_7
+  - first:
+      213: 4018437261352460883
+    second: DAILY_CHALLENGE_SHEET_1_1_8
+  - first:
+      213: -1859825767270848317
+    second: DAILY_CHALLENGE_SHEET_1_1_9
+  - first:
+      213: 3476409362444668924
+    second: DAILY_CHALLENGE_SHEET_1_1_10
+  - first:
+      213: -7655096945101172253
+    second: DAILY_CHALLENGE_SHEET_1_1_11
+  - first:
+      213: 2012012731260237442
+    second: DAILY_CHALLENGE_SHEET_1_1_12
+  - first:
+      213: 7705609463762338191
+    second: DAILY_CHALLENGE_SHEET_1_1_13
+  - first:
+      213: 1291519901996023015
+    second: DAILY_CHALLENGE_SHEET_1_1_14
+  - first:
+      213: 1628008297305113873
+    second: DAILY_CHALLENGE_SHEET_1_1_15
+  - first:
+      213: 3460277478848283708
+    second: DAILY_CHALLENGE_SHEET_1_1_16
+  - first:
+      213: -5839079334444609168
+    second: DAILY_CHALLENGE_SHEET_1_1_17
+  - first:
+      213: -8898947910159690963
+    second: DAILY_CHALLENGE_SHEET_1_1_18
+  - first:
+      213: -862176488875118085
+    second: DAILY_CHALLENGE_SHEET_1_1_19
+  - first:
+      213: -3722117911644059397
+    second: DAILY_CHALLENGE_SHEET_1_1_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 468
+        width: 765
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a76ee996c2a406c0800000000000000
+      internalID: -4178035580423215192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 479
+        width: 129
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb7e3c9072b5a580800000000000000
+      internalID: -8816444498780455947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 600
+        width: 128
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea3634f08a8b2550800000000000000
+      internalID: 6137151203680074469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 648
+        width: 223
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e71bdb422b86680800000000000000
+      internalID: -8761557204178207175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_4
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 468
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92d023eaf78dbd60800000000000000
+      internalID: 7907626032354611871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_5
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 494
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b755501222eeb990800000000000000
+      internalID: -7368203304400758864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_6
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 571
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420137514f3192ff0800000000000000
+      internalID: -60495180939980764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 470
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfeaabb387d64f40800000000000000
+      internalID: 5712490138155282387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_8
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 470
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526b1b066b54c730800000000000000
+      internalID: 4018437261352460883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_9
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 470
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8e3b581529036e0800000000000000
+      internalID: -1859825767270848317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_10
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 494
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff4b5675efae3030800000000000000
+      internalID: 3476409362444668924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_11
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 571
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1111a03e1a3c590800000000000000
+      internalID: -7655096945101172253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_12
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 562
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28674524bea1ceb10800000000000000
+      internalID: 2012012731260237442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_13
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 599
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8141713bf2dfea60800000000000000
+      internalID: 7705609463762338191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 116
+        width: 651
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecf1d212866ce110800000000000000
+      internalID: 1291519901996023015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_15
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 152
+        width: 457
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115824cbbe8d79610800000000000000
+      internalID: 1628008297305113873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 469
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34490f9800650030800000000000000
+      internalID: 3460277478848283708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 6
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071da17384c67fea0800000000000000
+      internalID: -5839079334444609168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_18
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1
+        width: 434
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d231a3c3606908480800000000000000
+      internalID: -8898947910159690963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_19
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 111
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1b7e62d0fe804f0800000000000000
+      internalID: -862176488875118085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DAILY_CHALLENGE_SHEET_1_1_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 469
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf84650ea71685cc0800000000000000
+      internalID: -3722117911644059397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

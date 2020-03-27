@@ -1,0 +1,2743 @@
+fileFormatVersion: 2
+guid: 7a5e9c2757a5a4741adf71d8eeddb086
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4176006505789048445
+    second: POPUPS_SHEET_1_1_0
+  - first:
+      213: 8126863151541168572
+    second: POPUPS_SHEET_1_1_1
+  - first:
+      213: 4220361751178234464
+    second: POPUPS_SHEET_1_1_2
+  - first:
+      213: 3383479029404588611
+    second: POPUPS_SHEET_1_1_3
+  - first:
+      213: 4566201233425033119
+    second: POPUPS_SHEET_1_1_4
+  - first:
+      213: 2875707600844462105
+    second: POPUPS_SHEET_1_1_5
+  - first:
+      213: 481317348415504574
+    second: POPUPS_SHEET_1_1_6
+  - first:
+      213: 4304722862849029013
+    second: POPUPS_SHEET_1_1_7
+  - first:
+      213: 2471531561014879708
+    second: POPUPS_SHEET_1_1_8
+  - first:
+      213: -2000202339608484017
+    second: POPUPS_SHEET_1_1_9
+  - first:
+      213: -5261600000190279455
+    second: POPUPS_SHEET_1_1_10
+  - first:
+      213: -8239729920242317232
+    second: POPUPS_SHEET_1_1_11
+  - first:
+      213: -1946666589788657629
+    second: POPUPS_SHEET_1_1_12
+  - first:
+      213: -6059320027916783363
+    second: POPUPS_SHEET_1_1_13
+  - first:
+      213: -1796461180833175650
+    second: POPUPS_SHEET_1_1_14
+  - first:
+      213: -7751963159131175147
+    second: POPUPS_SHEET_1_1_15
+  - first:
+      213: 7786792842694145174
+    second: POPUPS_SHEET_1_1_16
+  - first:
+      213: -2054844583219325532
+    second: POPUPS_SHEET_1_1_17
+  - first:
+      213: 949521601229417407
+    second: POPUPS_SHEET_1_1_18
+  - first:
+      213: -5842677688051722333
+    second: POPUPS_SHEET_1_1_19
+  - first:
+      213: 550028806359937013
+    second: POPUPS_SHEET_1_1_20
+  - first:
+      213: 5981643580722836012
+    second: POPUPS_SHEET_1_1_21
+  - first:
+      213: -1229766227485308493
+    second: POPUPS_SHEET_1_1_22
+  - first:
+      213: -2358456824039241046
+    second: POPUPS_SHEET_1_1_23
+  - first:
+      213: 1461337941272330435
+    second: POPUPS_SHEET_1_1_24
+  - first:
+      213: 3242137291344653356
+    second: POPUPS_SHEET_1_1_25
+  - first:
+      213: 4584343352304373369
+    second: POPUPS_SHEET_1_1_26
+  - first:
+      213: -2787986202271587361
+    second: POPUPS_SHEET_1_1_27
+  - first:
+      213: 3295324278998696192
+    second: POPUPS_SHEET_1_1_28
+  - first:
+      213: 8295444936385886522
+    second: POPUPS_SHEET_1_1_29
+  - first:
+      213: 501734425652675002
+    second: POPUPS_SHEET_1_1_30
+  - first:
+      213: -8856151615803230300
+    second: POPUPS_SHEET_1_1_31
+  - first:
+      213: -3501894594170268676
+    second: POPUPS_SHEET_1_1_32
+  - first:
+      213: 5950201165357501025
+    second: POPUPS_SHEET_1_1_33
+  - first:
+      213: 888643555425692671
+    second: POPUPS_SHEET_1_1_34
+  - first:
+      213: 5047563410690093857
+    second: POPUPS_SHEET_1_1_35
+  - first:
+      213: -5354368502762386470
+    second: POPUPS_SHEET_1_1_36
+  - first:
+      213: 44355085657454964
+    second: POPUPS_SHEET_1_1_37
+  - first:
+      213: 961392608028370510
+    second: POPUPS_SHEET_1_1_38
+  - first:
+      213: -3324225597584984274
+    second: POPUPS_SHEET_1_1_39
+  - first:
+      213: -1791289512685119198
+    second: POPUPS_SHEET_1_1_40
+  - first:
+      213: -4065724666806563207
+    second: POPUPS_SHEET_1_1_41
+  - first:
+      213: 3210203697669796451
+    second: POPUPS_SHEET_1_1_42
+  - first:
+      213: 5729735225155491236
+    second: POPUPS_SHEET_1_1_43
+  - first:
+      213: -6240361055737052775
+    second: POPUPS_SHEET_1_1_44
+  - first:
+      213: -5258728822603258500
+    second: POPUPS_SHEET_1_1_45
+  - first:
+      213: 5261160165869421161
+    second: POPUPS_SHEET_1_1_46
+  - first:
+      213: 4241801134356546479
+    second: POPUPS_SHEET_1_1_47
+  - first:
+      213: -2170289776833296393
+    second: POPUPS_SHEET_1_1_48
+  - first:
+      213: -6458436723682717872
+    second: POPUPS_SHEET_1_1_49
+  - first:
+      213: -1268650843729470899
+    second: POPUPS_SHEET_1_1_50
+  - first:
+      213: -3095922069827819178
+    second: POPUPS_SHEET_1_1_51
+  - first:
+      213: 977412117854504878
+    second: POPUPS_SHEET_1_1_52
+  - first:
+      213: -5071364288188758801
+    second: POPUPS_SHEET_1_1_53
+  - first:
+      213: -3930877737383355161
+    second: POPUPS_SHEET_1_1_54
+  - first:
+      213: -647389095687582895
+    second: POPUPS_SHEET_1_1_55
+  - first:
+      213: 1288758662884549103
+    second: POPUPS_SHEET_1_1_56
+  - first:
+      213: -3078790298445343034
+    second: POPUPS_SHEET_1_1_57
+  - first:
+      213: 317857924983812213
+    second: POPUPS_SHEET_1_1_58
+  - first:
+      213: 9163351022128234294
+    second: POPUPS_SHEET_1_1_59
+  - first:
+      213: -3699834947532645619
+    second: POPUPS_SHEET_1_1_60
+  - first:
+      213: 1947834149357875084
+    second: POPUPS_SHEET_1_1_61
+  - first:
+      213: 2590141061236426867
+    second: POPUPS_SHEET_1_1_62
+  - first:
+      213: 8676183978145990151
+    second: POPUPS_SHEET_1_1_63
+  - first:
+      213: -2854755737710863172
+    second: POPUPS_SHEET_1_1_64
+  - first:
+      213: 2603544394625325937
+    second: POPUPS_SHEET_1_1_65
+  - first:
+      213: -7562776485939820066
+    second: POPUPS_SHEET_1_1_66
+  - first:
+      213: 2346538410860569275
+    second: POPUPS_SHEET_1_1_67
+  - first:
+      213: -8588303595560406835
+    second: POPUPS_SHEET_1_1_68
+  - first:
+      213: -2307462699052899494
+    second: POPUPS_SHEET_1_1_69
+  - first:
+      213: 1820653005221633343
+    second: POPUPS_SHEET_1_1_70
+  - first:
+      213: 4950523827835371752
+    second: POPUPS_SHEET_1_1_71
+  - first:
+      213: 1111527655968872876
+    second: POPUPS_SHEET_1_1_72
+  - first:
+      213: -2031761273834639754
+    second: POPUPS_SHEET_1_1_73
+  - first:
+      213: 4168618093571962825
+    second: POPUPS_SHEET_1_1_74
+  - first:
+      213: 3671724984643698612
+    second: POPUPS_SHEET_1_1_75
+  - first:
+      213: 6463381998592402064
+    second: POPUPS_SHEET_1_1_76
+  - first:
+      213: 6090749206635583723
+    second: POPUPS_SHEET_1_1_77
+  - first:
+      213: -1599477110239991018
+    second: POPUPS_SHEET_1_1_78
+  - first:
+      213: 4195242418412303138
+    second: POPUPS_SHEET_1_1_79
+  - first:
+      213: 1560488685903438685
+    second: POPUPS_SHEET_1_1_80
+  - first:
+      213: -3376052070054492460
+    second: POPUPS_SHEET_1_1_81
+  - first:
+      213: 3662623986755384946
+    second: POPUPS_SHEET_1_1_82
+  - first:
+      213: -2752536768721340855
+    second: POPUPS_SHEET_1_1_83
+  - first:
+      213: -7823224222244017906
+    second: POPUPS_SHEET_1_1_84
+  - first:
+      213: -5297846047671096729
+    second: POPUPS_SHEET_1_1_85
+  - first:
+      213: 3071701943378097108
+    second: POPUPS_SHEET_1_1_86
+  - first:
+      213: -9108142005471912377
+    second: POPUPS_SHEET_1_1_87
+  - first:
+      213: 6140248117765634515
+    second: POPUPS_SHEET_1_1_88
+  - first:
+      213: -1508065207120621294
+    second: POPUPS_SHEET_1_1_89
+  - first:
+      213: 373043845620608574
+    second: POPUPS_SHEET_1_1_90
+  - first:
+      213: -5993045096362167321
+    second: POPUPS_SHEET_1_1_91
+  - first:
+      213: -7283428088461779310
+    second: POPUPS_SHEET_1_1_92
+  - first:
+      213: 1779027034729736578
+    second: POPUPS_SHEET_1_1_93
+  - first:
+      213: 2232846198432388585
+    second: POPUPS_SHEET_1_1_94
+  - first:
+      213: 7026330581057715772
+    second: POPUPS_SHEET_1_1_95
+  - first:
+      213: -4876187791592160528
+    second: POPUPS_SHEET_1_1_96
+  - first:
+      213: -3411937018826495412
+    second: POPUPS_SHEET_1_1_97
+  - first:
+      213: 3134947055310694836
+    second: POPUPS_SHEET_1_1_98
+  - first:
+      213: -6030302308726602016
+    second: POPUPS_SHEET_1_1_99
+  - first:
+      213: 8105111768614237378
+    second: POPUPS_SHEET_1_1_100
+  - first:
+      213: 3547859439175111211
+    second: POPUPS_SHEET_1_1_101
+  - first:
+      213: 8921494391792927776
+    second: POPUPS_SHEET_1_1_102
+  - first:
+      213: 245202812362169302
+    second: POPUPS_SHEET_1_1_103
+  - first:
+      213: -2729444667435125975
+    second: POPUPS_SHEET_1_1_104
+  - first:
+      213: -9022318299145569537
+    second: POPUPS_SHEET_1_1_105
+  - first:
+      213: 1683122513605553774
+    second: POPUPS_SHEET_1_1_106
+  - first:
+      213: -8629416692884528733
+    second: POPUPS_SHEET_1_1_107
+  - first:
+      213: 4089610983885394603
+    second: POPUPS_SHEET_1_1_108
+  - first:
+      213: -2290830840140897173
+    second: POPUPS_SHEET_1_1_109
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 742
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76c645aac724f930800000000000000
+      internalID: 4176006505789048445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_1
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1073
+        width: 471
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9a2d57afa68c070800000000000000
+      internalID: 8126863151541168572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_2
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1130
+        width: 339
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06acf9af6acb19a30800000000000000
+      internalID: 4220361751178234464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_3
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1088
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ad4a4304884fe20800000000000000
+      internalID: 3383479029404588611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_4
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1088
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97ef3b34d76e5f30800000000000000
+      internalID: 4566201233425033119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_5
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1099
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918993aa3d098e720800000000000000
+      internalID: 2875707600844462105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_6
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 922
+        width: 239
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb00a88049bfda600800000000000000
+      internalID: 481317348415504574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_7
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1028
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5937e98e2a27dbb30800000000000000
+      internalID: 4304722862849029013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_8
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1028
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd565792cd4ac4220800000000000000
+      internalID: 2471531561014879708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_9
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1048
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f472bb4d19add34e0800000000000000
+      internalID: -2000202339608484017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_10
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 721
+        width: 363
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0967e4daa0bf6b0800000000000000
+      internalID: -5261600000190279455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1015
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0588cc22b4996ad80800000000000000
+      internalID: -8239729920242317232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_12
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 797
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328a68bec0d0cf4e0800000000000000
+      internalID: -1946666589788657629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 963
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df03c9bc988f8eba0800000000000000
+      internalID: -6059320027916783363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_14
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 756
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97e8a7f210b117e0800000000000000
+      internalID: -1796461180833175650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_15
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 754
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5174214149e7b6490800000000000000
+      internalID: -7751963159131175147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_16
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 754
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694b65095de301c60800000000000000
+      internalID: 7786792842694145174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_17
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 755
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a593941db9bb73e0800000000000000
+      internalID: -2054844583219325532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_18
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 755
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbe6d39dd06d2d00800000000000000
+      internalID: 949521601229417407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 755
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7939a3993aaeea0800000000000000
+      internalID: -5842677688051722333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_20
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 765
+        width: 204
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffe053094812a700800000000000000
+      internalID: 550028806359937013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_21
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 676
+        width: 44
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22faf10521130350800000000000000
+      internalID: 5981643580722836012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 319
+        width: 428
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b947f5b12efeeee0800000000000000
+      internalID: -1229766227485308493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_23
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa8b01a304154fd0800000000000000
+      internalID: -2358456824039241046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_24
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c086567d17b74410800000000000000
+      internalID: 1461337941272330435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_25
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c25ab50b26efc20800000000000000
+      internalID: 3242137291344653356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_26
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e86827dfbde9f30800000000000000
+      internalID: 4584343352304373369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_27
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 742
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd369e602551f49d0800000000000000
+      internalID: -2787986202271587361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_28
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 742
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001007de8f75bbd20800000000000000
+      internalID: 3295324278998696192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_29
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 744
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39f71fe7375f1370800000000000000
+      internalID: 8295444936385886522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_30
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 742
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1cc944dc486f600800000000000000
+      internalID: 501734425652675002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_31
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 742
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7fb0ff601a81580800000000000000
+      internalID: -8856151615803230300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_32
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 744
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3de91ab65c66fc0800000000000000
+      internalID: -3501894594170268676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_33
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 744
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16acf333f6c539250800000000000000
+      internalID: 5950201165357501025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_34
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 724
+        width: 160
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba61dfa98155c00800000000000000
+      internalID: 888643555425692671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_35
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 723
+        width: 13
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123317bcd2c8c0640800000000000000
+      internalID: 5047563410690093857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_36
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 723
+        width: 12
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbce44273671b5b0800000000000000
+      internalID: -5354368502762386470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_37
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 740
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479389427b49d9000800000000000000
+      internalID: 44355085657454964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 319
+        width: 429
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46a73bbb7d875d00800000000000000
+      internalID: 961392608028370510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_39
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 722
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27bfa67e6afdd1d0800000000000000
+      internalID: -3324225597584984274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_40
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 340
+        width: 333
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229558acdaf0427e0800000000000000
+      internalID: -1791289512685119198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_41
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 510
+        width: 258
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e8378e4f4a397c0800000000000000
+      internalID: -4065724666806563207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_42
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 636
+        width: 5
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362f040314fec8c20800000000000000
+      internalID: 3210203697669796451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_43
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 596
+        width: 5
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a59f6074db148f40800000000000000
+      internalID: 5729735225155491236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_44
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 342
+        width: 127
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9918c92cea8c569a0800000000000000
+      internalID: -6240361055737052775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_45
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 341
+        width: 47
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75ef9e6ffd3507b0800000000000000
+      internalID: -5258728822603258500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_46
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 475
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9620519cb45630940800000000000000
+      internalID: 5261160165869421161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_47
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 398
+        width: 69
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3cb2d58a7edda30800000000000000
+      internalID: 4241801134356546479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_48
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 440
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7803852f491e1e0800000000000000
+      internalID: -2170289776833296393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_49
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 421
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fcd80a4060f56a0800000000000000
+      internalID: -6458436723682717872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_50
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 406
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a518b77c8d46ee0800000000000000
+      internalID: -1268650843729470899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_51
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 338
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659ee97c7431905d0800000000000000
+      internalID: -3095922069827819178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_52
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 226
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea741e38427709d00800000000000000
+      internalID: 977412117854504878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_53
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 341
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe448e39c05ee99b0800000000000000
+      internalID: -5071364288188758801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_54
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 341
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec16c74687b279c0800000000000000
+      internalID: -3930877737383355161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_55
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 345
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b84182c030407f0800000000000000
+      internalID: -647389095687582895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_56
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 356
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1e07efc2792e110800000000000000
+      internalID: 1288758662884549103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_57
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 356
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c61f332980f545d0800000000000000
+      internalID: -3078790298445343034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_58
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 368
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570f3b34912496400800000000000000
+      internalID: 317857924983812213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_59
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 23
+        width: 274
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f7a228433ca2f70800000000000000
+      internalID: 9163351022128234294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_60
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 322
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b9db0c7bb87acc0800000000000000
+      internalID: -3699834947532645619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_61
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 321
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe9d9b6d8180b10800000000000000
+      internalID: 1947834149357875084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_62
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 178
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3788621729702f320800000000000000
+      internalID: 2590141061236426867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_63
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 195
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706c3571c5ff76870800000000000000
+      internalID: 8676183978145990151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_64
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 315
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc5c3d18ced168d0800000000000000
+      internalID: -2854755737710863172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_65
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 316
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b1a9e25d5a12420800000000000000
+      internalID: 2603544394625325937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 314
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed941e7fade9b0790800000000000000
+      internalID: -7562776485939820066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_67
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 39
+        width: 310
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2672f8044909020800000000000000
+      internalID: 2346538410860569275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_68
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 274
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc07963f16730d880800000000000000
+      internalID: -8588303595560406835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_69
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 290
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53ec7296ee3affd0800000000000000
+      internalID: -2307462699052899494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_70
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 234
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9b731342444910800000000000000
+      internalID: 1820653005221633343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_71
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 249
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00c32413bc3b440800000000000000
+      internalID: 4950523827835371752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_72
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 64
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca91c049380fc6f00800000000000000
+      internalID: 1111527655968872876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_73
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 194
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee0bcd2ebbdc3e0800000000000000
+      internalID: -2031761273834639754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_74
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 219
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c77f9fd118e9d930800000000000000
+      internalID: 4168618093571962825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_75
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 96
+        width: 121
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf3d9e7b6694f230800000000000000
+      internalID: 3671724984643698612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_76
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 155
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09221c9eeab82b950800000000000000
+      internalID: 6463381998592402064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_77
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 164
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8918d1220b68450800000000000000
+      internalID: 6090749206635583723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_78
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 184
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be6c9ea048dc9e0800000000000000
+      internalID: -1599477110239991018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_79
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 16
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223bd1090ce783a30800000000000000
+      internalID: 4195242418412303138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_80
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 134
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d536a472138f7a510800000000000000
+      internalID: 1560488685903438685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_81
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 154
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d60e25878ad521d0800000000000000
+      internalID: -3376052070054492460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_82
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 125
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276316c4c1144d230800000000000000
+      internalID: 3662623986755384946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_83
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 104
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946b92574660dc9d0800000000000000
+      internalID: -2752536768721340855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_84
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 124
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09e9e2e4035e6390800000000000000
+      internalID: -7823224222244017906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_85
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 56
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a6bddb6154a76b0800000000000000
+      internalID: -5297846047671096729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_86
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 61
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3bde694a0e0aa20800000000000000
+      internalID: 3071701943378097108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_87
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 73
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e58006a11699180800000000000000
+      internalID: -9108142005471912377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_88
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 75
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d97e24712b863550800000000000000
+      internalID: 6140248117765634515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_89
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 62
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21113772fa6421be0800000000000000
+      internalID: -1508065207120621294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_90
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3eacdfa6615d2500800000000000000
+      internalID: 373043845620608574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_91
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 165
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3bf64cc3d64dca0800000000000000
+      internalID: -5993045096362167321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_92
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 13
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e12282eb01cea90800000000000000
+      internalID: -7283428088461779310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_93
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 4
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289e1e299af50b810800000000000000
+      internalID: 1779027034729736578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_94
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 4
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5d4af89c9acfe10800000000000000
+      internalID: 2232846198432388585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_95
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 23
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eb866bf6a828160800000000000000
+      internalID: 7026330581057715772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_96
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 3
+        width: 101
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f28d08e90d445cb0800000000000000
+      internalID: -4876187791592160528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_97
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 22
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a67dccb5d56a0d0800000000000000
+      internalID: -3411937018826495412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_98
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 16
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96375bcb1918b20800000000000000
+      internalID: 3134947055310694836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_99
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 31
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e602280000105ca0800000000000000
+      internalID: -6030302308726602016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_100
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 31
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4f619f5342b7070800000000000000
+      internalID: 8105111768614237378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_101
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b229c01dc578c3130800000000000000
+      internalID: 3547859439175111211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_102
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 5
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024057891e38fcb70800000000000000
+      internalID: 8921494391792927776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_103
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 7
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db16c0a8a2276300800000000000000
+      internalID: 245202812362169302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_104
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 3
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923f17349801f1ad0800000000000000
+      internalID: -2729444667435125975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_105
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffafbe82f494ac280800000000000000
+      internalID: -9022318299145569537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_106
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eebe03207ab5710800000000000000
+      internalID: 1683122513605553774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_107
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1aac90d372e3880800000000000000
+      internalID: -8629416692884528733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_108
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2560ca58731c830800000000000000
+      internalID: 4089610983885394603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POPUPS_SHEET_1_1_109
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6464ecfc755530e0800000000000000
+      internalID: -2290830840140897173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
