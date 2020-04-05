@@ -3,40 +3,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
+using UnityEngine.Events;
+using TMPro;
 
 public class Settings : MonoBehaviour
 {
     public Button soundButton;
-    public Button musicButton;
+    public Sprite soundSwitchSourceImageON;
+    public Sprite soundSwitchSourceImageOFF;
+    public TextMeshProUGUI ON_Text;
+    public TextMeshProUGUI OFF_Text;
+    public Slider volumeSlider;
     public Button settingCloseButton;
-    public Button settingApplyButton;
+    public Transform settingContent;
+    public Image contentBg;
+    public event UnityAction contentAction;
+    private Tween contentTween;
     void Start()
     {
-        settingCloseButton.onClick.AddListener(CloseSettingPanel);
-        settingApplyButton.onClick.AddListener(ApplySettings);
+        settingCloseButton.onClick.AddListener(HideContent);
         soundButton.onClick.AddListener(SetSound);
-        musicButton.onClick.AddListener(SetMusic);
+
+    }
+    private void OnEnable()
+    {
+        ShowContent();
     }
 
+    private void ShowContent()
+    {
+        if (contentTween != null)
+            contentTween.Kill();
+        contentBg.DOFade(0.5f, 0.25f);
+        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(Vector3.zero), 0.2f).SetEase(Ease.Linear);
+    }
+    private void HideContent()
+    {
+        if (contentTween != null)
+            contentTween.Kill();
+        contentBg.DOFade(0f, 0.25f);
+        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(0f, 0f, 25f), 0.2f).SetEase(Ease.Linear).OnComplete(() =>
+        {
+            if (contentAction != null)
+                contentAction.Invoke();
+        });
+    }
     private void SetSound()
     {
-        bool isOn = soundButton.GetComponent<Image>().color == Color.white;
-        soundButton.GetComponent<Image>().color = isOn ? Color.red : Color.white;
-    }
-
-    private void SetMusic()
-    {
-        bool isOn = musicButton.GetComponent<Image>().color == Color.white;
-        musicButton.GetComponent<Image>().color = isOn ? Color.red : Color.white;
-    }
-
-    private void ApplySettings()
-    {
-        gameObject.SetActive(false);
-    }
-
-    private void CloseSettingPanel()
-    {
-        gameObject.SetActive(false);
+        soundButton.GetComponent<Image>().sprite = soundButton.GetComponent<Image>().sprite == soundSwitchSourceImageON ? soundSwitchSourceImageOFF : soundSwitchSourceImageON;
+        ON_Text.gameObject.SetActive(soundButton.GetComponent<Image>().sprite == soundSwitchSourceImageON);
+        OFF_Text.gameObject.SetActive(!ON_Text.gameObject.activeSelf);
     }
 }
