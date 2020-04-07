@@ -37,7 +37,10 @@ public class LevelCounter : MonoBehaviour
     private void Update()
     {
         for (int i = 0; i < LevelButtons.Length; i++)
-            LevelButtons[i].leveCounter.SetText(((counter + i) + 1).ToString());
+        {
+            if(LevelButtons[i].levelCounter != null)
+                LevelButtons[i].levelCounter.SetText(((counter + i) + 1).ToString());
+        }
     }
     private void DoBack()
     {

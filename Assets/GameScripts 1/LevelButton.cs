@@ -9,7 +9,7 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class LevelButton : MonoBehaviour
 {
-    public TextMeshProUGUI leveCounter;
+    public TextMeshProUGUI levelCounter;
     public event UnityAction OnButtonClick;
 
     private void Start()
@@ -21,12 +21,13 @@ public class LevelButton : MonoBehaviour
     {
         if (OnButtonClick != null)
             OnButtonClick.Invoke();
+        PlayerPrefs.SetInt("levelIndex", Convert.ToInt32(levelCounter.text));
     }
 
     private void Update()
     {
-        if (leveCounter == null)
-            leveCounter = GetComponentInChildren<TextMeshProUGUI>();
+        if (levelCounter == null)
+            levelCounter = GetComponentInChildren<TextMeshProUGUI>();
     }
 
 }
