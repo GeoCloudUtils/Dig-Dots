@@ -5,8 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-
-[ExecuteInEditMode]
 public class LevelButton : MonoBehaviour
 {
     public TextMeshProUGUI levelCounter;
