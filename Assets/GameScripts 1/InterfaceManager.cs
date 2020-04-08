@@ -11,14 +11,18 @@ using UnityEngine.Events;
 public class InterfaceManager : MonoBehaviour
 {
     public GameObject loadingScreen;
-    public Settings settingCanvas;
-    public Button settingButton;
+    public UtilitiesController utilitiesCanvas;
+    public Button[] InterfaceButtons;
     public ScrolSnapContent snapContent;
     public LevelCounter level;
     private void Start()
     {
-        settingButton.onClick.AddListener(OpenSettings);
-        settingCanvas.contentAction += SettingCanvas_contentAction;
+        foreach (Button btn in InterfaceButtons)
+            btn.onClick.AddListener(() =>
+            {
+                OpenUtilitiesCanvas(btn);
+            });
+        utilitiesCanvas.contentAction += SettingCanvas_contentAction;
         snapContent.ShowLevelsContent += SnapContent_ShowLevelsContent;
         level.backToSectionsEvent += Level_backToSectionsEvent;
         level.DispatchLevelOpen += Level_DispatchLevelOpen;
@@ -45,11 +49,15 @@ public class InterfaceManager : MonoBehaviour
 
     private void SettingCanvas_contentAction()
     {
-        settingCanvas.gameObject.SetActive(false);
+        utilitiesCanvas.gameObject.SetActive(false);
+        for (int i = 0; i < utilitiesCanvas.settingContent.transform.childCount - 1; i++)
+            utilitiesCanvas.settingContent.transform.GetChild(i).gameObject.SetActive(false);
     }
 
-    private void OpenSettings()
+    private void OpenUtilitiesCanvas(Button button)
     {
-        settingCanvas.gameObject.SetActive(true);
+        int targetIndex = System.Array.IndexOf(InterfaceButtons, button);
+        utilitiesCanvas.gameObject.SetActive(true);
+        utilitiesCanvas.settingContent.transform.GetChild(targetIndex).gameObject.SetActive(true);
     }
 }

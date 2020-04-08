@@ -15,39 +15,10 @@ public class Settings : MonoBehaviour
     public TextMeshProUGUI ON_Text;
     public TextMeshProUGUI OFF_Text;
     public Slider volumeSlider;
-    public Button settingCloseButton;
-    public Transform settingContent;
-    public Image contentBg;
-    public event UnityAction contentAction;
-    private Tween contentTween;
+
     void Start()
     {
-        settingCloseButton.onClick.AddListener(HideContent);
         soundButton.onClick.AddListener(SetSound);
-
-    }
-    private void OnEnable()
-    {
-        ShowContent();
-    }
-
-    private void ShowContent()
-    {
-        if (contentTween != null)
-            contentTween.Kill();
-        contentBg.DOFade(0.5f, 0.25f);
-        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(Vector3.zero), 0.2f).SetEase(Ease.Linear);
-    }
-    private void HideContent()
-    {
-        if (contentTween != null)
-            contentTween.Kill();
-        contentBg.DOFade(0f, 0.25f);
-        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(0f, 0f, 25f), 0.2f).SetEase(Ease.Linear).OnComplete(() =>
-        {
-            if (contentAction != null)
-                contentAction.Invoke();
-        });
     }
     private void SetSound()
     {
