@@ -52,11 +52,11 @@ namespace ClipperLib
     // PolyTree & PolyNode classes
     //------------------------------------------------------------------------------
 
-    public class PolyTree : PolyNode
+    public class PolyTree2 : PolyNode
     {
         internal List<PolyNode> m_AllPolys = new List<PolyNode>();
 
-        ~PolyTree()
+        ~PolyTree2()
         {
             Clear();
         }
@@ -1055,7 +1055,7 @@ namespace ClipperLib
         }
         //------------------------------------------------------------------------------
 
-        public bool Execute(ClipType clipType, PolyTree polytree,
+        public bool Execute(ClipType clipType, PolyTree2 polytree,
             PolyFillType subjFillType, PolyFillType clipFillType)
         {
             if (m_ExecuteLocked) return false;
@@ -1079,7 +1079,7 @@ namespace ClipperLib
         }
         //------------------------------------------------------------------------------
 
-        public bool Execute(ClipType clipType, PolyTree polytree)
+        public bool Execute(ClipType clipType, PolyTree2 polytree)
         {
             return Execute(clipType, polytree,
                 PolyFillType.pftEvenOdd, PolyFillType.pftEvenOdd);
@@ -2887,7 +2887,7 @@ namespace ClipperLib
         }
         //------------------------------------------------------------------------------
 
-        private void BuildResult2(PolyTree polytree)
+        private void BuildResult2(PolyTree2 polytree)
         {
             polytree.Clear();
 
@@ -3715,7 +3715,7 @@ namespace ClipperLib
         }
         //------------------------------------------------------------------------------
 
-        public static void PolyTreeToPolygons(PolyTree polytree, Polygons polygons)
+        public static void PolyTreeToPolygons(PolyTree2 polytree, Polygons polygons)
         {
             polygons.Clear();
             polygons.Capacity = polytree.Total;
