@@ -42,8 +42,6 @@ public class LevelsContent : MonoBehaviour
     private void DoBack()
     {
         backButton.gameObject.SetActive(false);
-        for (int i = 0; i < LevelButtons.Length; i++)
-            LevelButtons[i].transform.DOMove(Vector3.zero, 0.25f);
         Invoke("LoadSectionInterface", 0.26f);
     }
     private void LoadSectionInterface()

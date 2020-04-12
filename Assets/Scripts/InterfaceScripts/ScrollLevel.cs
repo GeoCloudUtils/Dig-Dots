@@ -24,7 +24,10 @@ public class ScrollLevel : MonoBehaviour
     private void Start()
     {
         if (isFirstLevel)
+        {
+            isBlocked = false;
             hoverImage.gameObject.SetActive(false);
+        }
         LoadInfo();
     }
     public void DoBlock()
@@ -64,7 +67,7 @@ public class ScrollLevel : MonoBehaviour
     }
     private void Update()
     {
-        passed = isPassed();
+        passed = isPassed(); ;
     }
     private bool isPassed()
     {

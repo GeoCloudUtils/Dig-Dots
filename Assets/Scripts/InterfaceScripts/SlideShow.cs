@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class SlideShow : MonoBehaviour
 {
+    public ScrollLevel levelParent;
     public float x_left;
     public float center;
     public float delay;
@@ -18,6 +19,7 @@ public class SlideShow : MonoBehaviour
     private void Awake()
     {
         slideShowImage = GetComponent<Image>();
+        delay = UnityEngine.Random.Range(4.0f, 6.0f);
     }
     void Start()
     {
@@ -30,6 +32,8 @@ public class SlideShow : MonoBehaviour
     {
         if (transform.localPosition.x == center)
         {
+            if (levelParent.isBlocked)
+                return;
             transform.DOLocalMoveX(x_left, 0.5f).SetEase(Ease.InOutBack).SetDelay(delay).OnComplete(() =>
             {
                 currentImageIndex++;
