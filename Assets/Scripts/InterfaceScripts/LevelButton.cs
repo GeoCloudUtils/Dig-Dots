@@ -30,11 +30,23 @@ public class LevelButton : MonoBehaviour
         {
             if (checkImage.GetComponent<_2dxFX_GrayScale>() != null)
                 Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
+            if (levelScreenShotImage.sprite != null)
+            {
+                if (levelScreenShotImage.GetComponent<_2dxFX_Cartoon>() == null)
+                    levelScreenShotImage.gameObject.AddComponent<_2dxFX_Cartoon>();
+                if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() != null)
+                    Destroy(levelScreenShotImage.gameObject.GetComponent<_2dxFX_GrayScale>());
+            }
         }
         else
         {
             if (checkImage.gameObject.GetComponent<_2dxFX_GrayScale>() == null)
                 checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
-        }
+            if (levelScreenShotImage.sprite != null)
+            {
+                if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() == null)
+                    levelScreenShotImage.gameObject.AddComponent<_2dxFX_GrayScale>();
+            }
+        }    
     }
 }

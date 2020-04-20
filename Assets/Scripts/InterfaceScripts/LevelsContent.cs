@@ -20,6 +20,11 @@ public class LevelsContent : MonoBehaviour
             btn.OnButtonClick += Btn_OnButtonClick;
         LoadIcons();
     }
+
+    private void Awake()
+    {
+        LevelButtons = gameObject.GetComponentsInChildren<LevelButton>();
+    }
     private void Btn_OnButtonClick()
     {
         foreach (LevelButton btn in LevelButtons)
