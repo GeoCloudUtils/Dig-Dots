@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class ScrollLevel : MonoBehaviour
 {
+    public ScrollLevel lastTabLevel;
     public TextMeshProUGUI bottomIndicatorText;
     public TextMeshProUGUI levelCountText;
     public TextMeshProUGUI infoText;
@@ -13,6 +14,7 @@ public class ScrollLevel : MonoBehaviour
     public Image levelImage;
     public bool isFirstLevel = false;
     public bool isBlocked = true;
+    public bool complete = false;
     private void Start()
     {
         if (isFirstLevel)
@@ -26,8 +28,11 @@ public class ScrollLevel : MonoBehaviour
                 Unblock();
             else
                 DoBlock();
-            isBlocked = isLastSectionComplete();
         }
+    }
+    private void Awake()
+    {
+        isBlocked = true;
     }
     public void DoBlock()
     {
@@ -37,6 +42,19 @@ public class ScrollLevel : MonoBehaviour
             checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
         if (levelImage.GetComponent<_2dxFX_GrayScale>() == null)
             levelImage.gameObject.AddComponent<_2dxFX_GrayScale>();
+    }
+
+    private void Update()
+    {
+        complete = isFirstLevel ? firstComplete() : isLastSectionComplete();
+        if (!isFirstLevel)
+        {
+            if (lastTabLevel.complete)
+            {
+                if (isBlocked)
+                    Unblock();
+            }
+        }
     }
     public void Unblock()
     {
@@ -62,6 +80,16 @@ public class ScrollLevel : MonoBehaviour
     public bool isLastSectionComplete()
     {
         for (int i = min - 12; i <= max - 12; i++)
+        {
+            string key = PlayerPrefs.GetString("Level" + i.ToString());
+            if (!PlayerPrefs.HasKey(key))
+                return false;
+        }
+        return true;
+    }
+    private bool firstComplete()
+    {
+        for (int i = min; i <= max; i++)
         {
             string key = PlayerPrefs.GetString("Level" + i.ToString());
             if (!PlayerPrefs.HasKey(key))

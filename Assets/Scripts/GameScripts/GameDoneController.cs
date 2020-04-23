@@ -14,6 +14,7 @@ public class GameDoneController : MonoBehaviour
     public GameObject[] CanvasContents;
     public Image screenShootImage;
     public Button nextLevelButton;
+    public Button watchAdButton;
     public event UnityAction NextLevelEvent;
     public TextMeshProUGUI textLevel;
     public Sprite[] Icons; // icons array
@@ -22,7 +23,15 @@ public class GameDoneController : MonoBehaviour
     private void Start()
     {
         nextLevelButton.onClick.AddListener(LoadNextLevel);
+        watchAdButton.onClick.AddListener(WatchAd);
     }
+
+    private void WatchAd()
+    {
+        watchAdButton.interactable = false;
+        LoadNextLevel();
+    }
+
     private void LoadNextLevel()
     {
         nextLevelButton.interactable = false;
@@ -40,7 +49,8 @@ public class GameDoneController : MonoBehaviour
         else
             PlayerPrefs.SetInt("level" + (levelIndex + 1).ToString(), 0);
         screenShootImage.sprite = GetSprite();
-        //scHandler.CaptureScreenshot();
+        nextLevelButton.gameObject.SetActive(good);
+        watchAdButton.gameObject.SetActive(!good);
     }
     void LoadIcons()
     {

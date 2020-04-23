@@ -51,14 +51,17 @@ public class InGameManager : MonoBehaviour
     private void Level_gameDoneEvent(bool gameDone)
     {
         done = gameDone;
-        (Instantiate(FX, new Vector3(0f, 0f, -2f), Quaternion.identity) as ParticleCleanerEvent).ParticleSystemDone += OnLevelDone;
+        if (done)
+            (Instantiate(FX, new Vector3(0f, 0f, -2f), Quaternion.identity) as ParticleCleanerEvent).ParticleSystemDone += OnLevelDone;
+        else
+            OnLevelDone(null);
     }
     private void OnLevelDone(ParticleCleanerEvent target)
     {
         ResultCanvas.gameObject.SetActive(true);
         ResultCanvas.SetContent(done);
-        Debug.Log("Level" + currentLevel.ToString());
-        PlayerPrefs.SetString("Level" + (currentLevel + 1).ToString(), "Level" + (currentLevel + 1).ToString());
+        if (done)
+            PlayerPrefs.SetString("Level" + (currentLevel + 1).ToString(), "Level" + (currentLevel + 1).ToString());
         foreach (DOTweenAnimation buttonTween in buttonTweens)
             buttonTween.DOPlay();
     }
