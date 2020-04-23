@@ -10,7 +10,7 @@ public class SlideShow : MonoBehaviour
     public float x_left;
     public float center;
     public float delay;
-    public bool makeSlideShow = false;
+    public bool slideShowBlocked = false;
     public Image slideShowImage;
     private Vector3 startPosition;
     public Sprite[] Icons; // icons array
@@ -32,7 +32,7 @@ public class SlideShow : MonoBehaviour
     {
         if (transform.localPosition.x == center)
         {
-            if (levelParent.isBlocked)
+            if (slideShowBlocked)
                 return;
             transform.DOLocalMoveX(x_left, 0.5f).SetEase(Ease.InOutBack).SetDelay(delay).OnComplete(() =>
             {
@@ -53,5 +53,10 @@ public class SlideShow : MonoBehaviour
         Icons = new Sprite[loadedIcons.Length];
         for (int x = 0; x < loadedIcons.Length; x++)
             Icons[x] = (Sprite)loadedIcons[x];
+    }
+
+    private void Update()
+    {
+        slideShowBlocked = levelParent.hoverImage.gameObject.activeSelf;
     }
 }

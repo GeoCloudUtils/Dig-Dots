@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Events;
-
 public class LevelsContent : MonoBehaviour
 {
     public LevelButton[] LevelButtons;
@@ -40,8 +39,16 @@ public class LevelsContent : MonoBehaviour
         backButton.gameObject.SetActive(true);
         for (int i = 0; i < LevelButtons.Length; i++)
         {
-            if (LevelButtons[i].levelCounter != null)
-                LevelButtons[i].levelCounter.SetText(((counter + i) + 1).ToString());
+            LevelButton btn = LevelButtons[i];
+            btn.name = "Level" + ((counter + 1) + i);
+            string levelStr = PlayerPrefs.GetString("Level" + ((counter + 1) + i).ToString());
+            string levelName = btn.name;
+            if (levelStr.Equals(levelName))
+                btn.SetActive();
+            else
+                btn.SetInactive();
+            if (btn.levelCounter != null)
+                btn.levelCounter.SetText(((counter + i) + 1).ToString());
         }
     }
     private void DoBack()

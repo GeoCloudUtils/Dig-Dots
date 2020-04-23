@@ -8,6 +8,7 @@ TagManager:
   - blueBall
   - redBall
   - utilitiesPanel
+  - obstacle
   layers:
   - Default
   - TransparentFX

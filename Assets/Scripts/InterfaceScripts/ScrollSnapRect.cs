@@ -185,15 +185,15 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
             _pagePositions.Add(-childPosition);
         }
 
-        Debug.Log("--- PagePositions.Count: " + _pagePositions.Count);
+        //Debug.Log("--- PagePositions.Count: " + _pagePositions.Count);
     }
 
     //------------------------------------------------------------------------
     private void SetPage(int aPageIndex)
     {
         aPageIndex = Mathf.Clamp(aPageIndex, 0, _pageCount - 1);
-        Debug.Log("SetPage. Index: " + aPageIndex);
-        Debug.Log("_pagePositions: " + _pagePositions.Count);
+        //Debug.Log("SetPage. Index: " + aPageIndex);
+        //Debug.Log("_pagePositions: " + _pagePositions.Count);
         _container.anchoredPosition = _pagePositions[aPageIndex];
         _currentPage = aPageIndex;
     }

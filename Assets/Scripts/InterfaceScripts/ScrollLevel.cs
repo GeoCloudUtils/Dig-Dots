@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,26 +7,27 @@ public class ScrollLevel : MonoBehaviour
     public TextMeshProUGUI bottomIndicatorText;
     public TextMeshProUGUI levelCountText;
     public TextMeshProUGUI infoText;
+    public int min, max;
     public Image hoverImage;
     public Image checkImage;
     public Image levelImage;
     public bool isFirstLevel = false;
-    public bool passed = false;
-    private int passedLevelsIndex = 0;
     public bool isBlocked = true;
-
-    private void Awake()
-    {
-        passed = isPassed();
-    }
     private void Start()
     {
         if (isFirstLevel)
+            Unblock();
+        levelCountText.text = max.ToString();
+        bottomIndicatorText.SetText(min + "/" + max);
+        SetSectionUI();
+        if (!isFirstLevel)
         {
-            isBlocked = false;
-            hoverImage.gameObject.SetActive(false);
+            if (isLastSectionComplete())
+                Unblock();
+            else
+                DoBlock();
+            isBlocked = isLastSectionComplete();
         }
-        LoadInfo();
     }
     public void DoBlock()
     {
@@ -49,32 +48,23 @@ public class ScrollLevel : MonoBehaviour
         if (levelImage.GetComponent<_2dxFX_GrayScale>())
             Destroy(levelImage.GetComponent<_2dxFX_GrayScale>());
     }
-
-    private void LoadInfo()
+    private void SetSectionUI()
     {
-        if (isBlocked && !isFirstLevel)
+        int index = 0;
+        for (int i = min; i <= max; i++)
         {
-            infoText.SetText(0 + " from " + 12 + " levels completed!");
-            return;
+            string level = PlayerPrefs.GetString("Level" + i.ToString());
+            if (level != "")
+                index++;
         }
-        for (int i = 1; i < System.Convert.ToInt32(levelCountText.text); i++)
-        {
-            int x = PlayerPrefs.GetInt("level" + i.ToString());
-            if (x != 0)
-                passedLevelsIndex++;
-        }
-        infoText.SetText(passedLevelsIndex + " from " + levelCountText.text + " levels completed!");
+        infoText.SetText(index + " from " + 12 + " levels completed!");
     }
-    private void Update()
+    public bool isLastSectionComplete()
     {
-        passed = isPassed(); ;
-    }
-    private bool isPassed()
-    {
-        for (int i = 1; i < System.Convert.ToInt32(levelCountText.text); i++)
+        for (int i = min - 12; i <= max - 12; i++)
         {
-            int x = PlayerPrefs.GetInt("level" + i.ToString());
-            if (x == 0)
+            string key = PlayerPrefs.GetString("Level" + i.ToString());
+            if (!PlayerPrefs.HasKey(key))
                 return false;
         }
         return true;

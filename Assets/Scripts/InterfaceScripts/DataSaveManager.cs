@@ -4,14 +4,5 @@ using UnityEngine;
 
 public class DataSaveManager : MonoBehaviour
 {
-    public int unlcockIndex = 0;
-    void Update()
-    {
-        
-    }
 
-    private void OnGameLoad()
-    {
-       
-    }
 }

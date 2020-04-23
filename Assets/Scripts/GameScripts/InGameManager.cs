@@ -1,13 +1,14 @@
 ﻿using DG.Tweening;
 using ScriptUtils.GameUtils;
 using ScriptUtils.Interface;
+using ScriptUtils.Visual;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InGameManager : MonoBehaviour
 {
-    public ScreenshotHandler scHandler;
+    public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
     public LevelController[] AllLevels;
     public DOTweenAnimation[] buttonTweens;
@@ -45,10 +46,19 @@ public class InGameManager : MonoBehaviour
         level.gameDoneEvent += Level_gameDoneEvent;
         levelText.text = "Level " + (currentLevel + 1);
     }
+
+    bool done = false;
     private void Level_gameDoneEvent(bool gameDone)
     {
+        done = gameDone;
+        (Instantiate(FX, new Vector3(0f, 0f, -2f), Quaternion.identity) as ParticleCleanerEvent).ParticleSystemDone += OnLevelDone;
+    }
+    private void OnLevelDone(ParticleCleanerEvent target)
+    {
         ResultCanvas.gameObject.SetActive(true);
-        ResultCanvas.SetContent(gameDone);
+        ResultCanvas.SetContent(done);
+        Debug.Log("Level" + currentLevel.ToString());
+        PlayerPrefs.SetString("Level" + (currentLevel + 1).ToString(), "Level" + (currentLevel + 1).ToString());
         foreach (DOTweenAnimation buttonTween in buttonTweens)
             buttonTween.DOPlay();
     }

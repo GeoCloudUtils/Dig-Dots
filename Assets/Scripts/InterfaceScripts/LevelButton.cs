@@ -23,30 +23,27 @@ public class LevelButton : MonoBehaviour
             OnButtonClick.Invoke();
         PlayerPrefs.SetInt("levelIndex", Convert.ToInt32(levelCounter.text) - 1);
     }
-    private void Update()
+
+    public void SetActive()
     {
-        passed = PlayerPrefs.GetInt(("level" + levelCounter.text.ToString())) != 0;
-        if (passed)
+        if (checkImage.GetComponent<_2dxFX_GrayScale>() != null)
+            Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
+        if (levelScreenShotImage.sprite != null)
         {
-            if (checkImage.GetComponent<_2dxFX_GrayScale>() != null)
-                Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
-            if (levelScreenShotImage.sprite != null)
-            {
-                if (levelScreenShotImage.GetComponent<_2dxFX_Cartoon>() == null)
-                    levelScreenShotImage.gameObject.AddComponent<_2dxFX_Cartoon>();
-                if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() != null)
-                    Destroy(levelScreenShotImage.gameObject.GetComponent<_2dxFX_GrayScale>());
-            }
+            if (levelScreenShotImage.GetComponent<_2dxFX_Cartoon>() == null)
+                levelScreenShotImage.gameObject.AddComponent<_2dxFX_Cartoon>();
+            if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() != null)
+                Destroy(levelScreenShotImage.gameObject.GetComponent<_2dxFX_GrayScale>());
         }
-        else
+    }
+    public void SetInactive()
+    {
+        if (checkImage.gameObject.GetComponent<_2dxFX_GrayScale>() == null)
+            checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
+        if (levelScreenShotImage.sprite != null)
         {
-            if (checkImage.gameObject.GetComponent<_2dxFX_GrayScale>() == null)
-                checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
-            if (levelScreenShotImage.sprite != null)
-            {
-                if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() == null)
-                    levelScreenShotImage.gameObject.AddComponent<_2dxFX_GrayScale>();
-            }
-        }    
+            if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() == null)
+                levelScreenShotImage.gameObject.AddComponent<_2dxFX_GrayScale>();
+        }
     }
 }

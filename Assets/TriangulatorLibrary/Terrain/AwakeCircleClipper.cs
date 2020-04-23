@@ -15,7 +15,6 @@ public class AwakeCircleClipper : MonoBehaviour, IClip
     public int segmentCount = 10;
 
     private Vector2 clipPosition;
-
     public bool CheckBlockOverlapping(Vector2 p, float size)
     {
         float dx = Mathf.Abs(clipPosition.x - p.x) - radius - size / 2;
@@ -50,6 +49,8 @@ public class AwakeCircleClipper : MonoBehaviour, IClip
     void Awake()
     {
         radius = diameter / 2f;
+        if (terrain == null)
+            terrain = FindObjectOfType<DestructibleTerrain>();
     }
 
     void OnDrawGizmos()
