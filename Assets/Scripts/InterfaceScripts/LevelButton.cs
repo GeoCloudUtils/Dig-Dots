@@ -30,8 +30,6 @@ public class LevelButton : MonoBehaviour
             Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
         if (levelScreenShotImage.sprite != null)
         {
-            if (levelScreenShotImage.GetComponent<_2dxFX_Cartoon>() == null)
-                levelScreenShotImage.gameObject.AddComponent<_2dxFX_Cartoon>();
             if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() != null)
                 Destroy(levelScreenShotImage.gameObject.GetComponent<_2dxFX_GrayScale>());
         }

@@ -11,7 +11,6 @@ public class ScrollLevel : MonoBehaviour
     public int min, max;
     public Image hoverImage;
     public Image checkImage;
-    public Image levelImage;
     public bool isFirstLevel = false;
     public bool isBlocked = true;
     public bool complete = false;
@@ -40,8 +39,6 @@ public class ScrollLevel : MonoBehaviour
         hoverImage.gameObject.SetActive(true);
         if (checkImage.GetComponent<_2dxFX_GrayScale>() == null)
             checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
-        if (levelImage.GetComponent<_2dxFX_GrayScale>() == null)
-            levelImage.gameObject.AddComponent<_2dxFX_GrayScale>();
     }
 
     private void Update()
@@ -63,8 +60,6 @@ public class ScrollLevel : MonoBehaviour
         hoverImage.gameObject.SetActive(false);
         if (checkImage.GetComponent<_2dxFX_GrayScale>())
             Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
-        if (levelImage.GetComponent<_2dxFX_GrayScale>())
-            Destroy(levelImage.GetComponent<_2dxFX_GrayScale>());
     }
     private void SetSectionUI()
     {
