@@ -2,12 +2,15 @@
 using ScriptUtils.GameUtils;
 using ScriptUtils.Interface;
 using ScriptUtils.Visual;
+using System.Collections.Generic;
+using System.ComponentModel;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InGameManager : MonoBehaviour
 {
+    public AdCaller adCaller;
     public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
     public LevelController[] AllLevels;
@@ -22,19 +25,51 @@ public class InGameManager : MonoBehaviour
 
     public int testLevelIndex = 0;
     public bool test = false;
+
+    bool done = false;
+
+    public List<int> AdsSteps = new List<int>();
     void Start()
     {
         backButton.onClick.AddListener(GoHome);
-        reloadButton.onClick.AddListener(LoadLevel);
+        reloadButton.onClick.AddListener(DoReload);
         currentLevel = PlayerPrefs.GetInt("levelIndex");
         ResultCanvas.NextLevelEvent += ResultCanvas_NextLevelEvent;
+        GetAds();
         ShowLevel();
     }
 
+    private void GetAds()
+    {
+        foreach (int number in EvenSequence(2, AllLevels.Length))
+            AdsSteps.Add(number);
+    }
+    public static IEnumerable<int> EvenSequence(int firstNumber, int lastNumber)
+    {
+        // Yield even numbers in the range.
+        for (int number = firstNumber; number <= lastNumber - 1; number++)
+        {
+            if (number % 3 == 0)
+                yield return number;
+        }
+    }
     private void ResultCanvas_NextLevelEvent()
     {
-        PlayerPrefs.SetInt("levelIndex", currentLevel + 1);
-        LoadLevel();
+        if (AdsSteps.Contains(currentLevel))
+        {
+            AdsSteps.Clear();
+            adCaller.ShowAd(false);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("levelIndex", currentLevel + 1);
+            LoadLevel(false);
+        }
+    }
+
+    private void DoReload()
+    {
+        LoadLevel(true);
     }
 
     private void ShowLevel()
@@ -46,8 +81,6 @@ public class InGameManager : MonoBehaviour
         level.gameDoneEvent += Level_gameDoneEvent;
         levelText.text = "Level " + (currentLevel + 1);
     }
-
-    bool done = false;
     private void Level_gameDoneEvent(bool gameDone)
     {
         done = gameDone;
@@ -66,10 +99,17 @@ public class InGameManager : MonoBehaviour
             buttonTween.DOPlay();
     }
 
-    private void LoadLevel()
+    private void LoadLevel(bool reload)
     {
         if (!canClick)
             return;
+        if (AdsSteps.Contains(currentLevel))
+            adCaller.ShowAd(false);
+        if (reload)
+        {
+            if (Random.value > 0.6f)
+                adCaller.ShowAd(false);
+        }
         int nextLevelIndex = PlayerPrefs.GetInt("levelIndex");
         if (nextLevelIndex >= AllLevels.Length)
         {
@@ -79,7 +119,6 @@ public class InGameManager : MonoBehaviour
         Navigator.getInstance().setLoadingScreenPrefab<LoadingScreen>(loadinScreen);
         Navigator.getInstance().LoadLevel("MainGame");
     }
-
     private void GoHome()
     {
         if (!canClick)

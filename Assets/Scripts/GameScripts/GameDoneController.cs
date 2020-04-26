@@ -34,7 +34,6 @@ public class GameDoneController : MonoBehaviour
 
     private void LoadNextLevel()
     {
-        nextLevelButton.interactable = false;
         if (NextLevelEvent != null)
             NextLevelEvent.Invoke();
     }
