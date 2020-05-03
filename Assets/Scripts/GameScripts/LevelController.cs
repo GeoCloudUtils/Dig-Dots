@@ -11,10 +11,13 @@ public class LevelController : MonoBehaviour
     public Rigidbody2D redBall;
     public Rigidbody2D blueBall;
     public event UnityAction<bool> gameDoneEvent;
+
+    private int currentLevel = 0;
     void Start()
     {
         redBall.gameObject.AddComponent<ColliderEventSystem>().ColliderEntered += GameController_ColliderEntered;
         blueBall.gameObject.AddComponent<ColliderEventSystem>().ColliderEntered += GameController_ColliderEntered;
+        currentLevel = PlayerPrefs.GetInt("levelIndex");
     }
     private void GameController_ColliderEntered(ColliderEventSystem eventTarget, Collider2D other)
     {
@@ -42,6 +45,7 @@ public class LevelController : MonoBehaviour
             target.gameObject.SetActive(false);
             Instantiate(FX[target.name == "Red" ? 0 : 1], new Vector3(target.transform.position.x, target.transform.position.y, -1.5f), Quaternion.identity);
         }
+        PlayerPrefs.SetString("Level" + (currentLevel + 1).ToString(), "Level" + (currentLevel + 1).ToString());
         if (gameDoneEvent != null)
             gameDoneEvent.Invoke(complete);
     }

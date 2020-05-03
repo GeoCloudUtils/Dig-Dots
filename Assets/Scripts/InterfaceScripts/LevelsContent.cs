@@ -10,7 +10,7 @@ public class LevelsContent : MonoBehaviour
     public Button backButton;
     public int counter;
     public event UnityAction backToSectionsEvent;
-    public event UnityAction DispatchLevelOpen;
+    public event UnityAction<int> DispatchLevelOpen;
     public Sprite[] Icons; // icons array
     private void Start()
     {
@@ -24,12 +24,12 @@ public class LevelsContent : MonoBehaviour
     {
         LevelButtons = gameObject.GetComponentsInChildren<LevelButton>();
     }
-    private void Btn_OnButtonClick()
+    private void Btn_OnButtonClick(int levelIndex)
     {
         foreach (LevelButton btn in LevelButtons)
             btn.GetComponent<Button>().interactable = false;
         if (DispatchLevelOpen != null)
-            DispatchLevelOpen.Invoke();
+            DispatchLevelOpen.Invoke(levelIndex);
     }
 
     private void OnEnable()
@@ -48,7 +48,7 @@ public class LevelsContent : MonoBehaviour
             else
                 btn.SetInactive();
             if (btn.levelCounter != null)
-                btn.levelCounter.SetText(((counter + i) + 1).ToString());
+                btn.levelCounter.SetText("   Level " + ((counter + i) + 1).ToString());
         }
     }
     private void DoBack()

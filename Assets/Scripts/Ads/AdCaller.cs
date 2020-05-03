@@ -16,14 +16,19 @@ public class AdCaller : MonoBehaviour, IUnityAdsListener
         Monetization.Initialize(adId, true);
     }
 
+    public void InitializeAd()
+    {
+        Monetization.Initialize(adId, true);
+    }
     public void ShowAd(bool rewarded)
     {
         if (Monetization.IsReady(rewarded ? rewardedId : videoId))
         {
-            ShowAdPlacementContent ad = null;
-            ad = Monetization.GetPlacementContent(rewarded ? rewardedId : videoId) as ShowAdPlacementContent;
+            ShowAdPlacementContent ad = Monetization.GetPlacementContent(rewarded ? rewardedId : videoId) as ShowAdPlacementContent;
             if (ad != null)
                 ad.Show();
+            else
+                Debug.LogError("Ad is null!");
         }
     }
 

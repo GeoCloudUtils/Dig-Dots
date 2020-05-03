@@ -1,65 +1,62 @@
-﻿using TMPro;
+﻿using ScriptUtils.Extensions;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ScrollLevel : MonoBehaviour
 {
-    public ScrollLevel lastTabLevel;
     public TextMeshProUGUI bottomIndicatorText;
-    public TextMeshProUGUI levelCountText;
     public TextMeshProUGUI infoText;
+    public TextMeshProUGUI chapterText;
+    public string chapter = "";
     public int min, max;
     public Image hoverImage;
     public Image checkImage;
     public bool isFirstLevel = false;
-    public bool isBlocked = true;
     public bool complete = false;
+    public bool isBlocked = true;
+
+    private Image[] allChapterImages;
+    private void Awake()
+    {
+        allChapterImages = GetComponentsInChildren<Image>();
+        DoBlock();
+    }
     private void Start()
     {
         if (isFirstLevel)
             Unblock();
-        levelCountText.text = max.ToString();
         bottomIndicatorText.SetText(min + "/" + max);
+        int ch_index = transform.GetSiblingIndex();
+        chapterText.SetText("Chapter " + (ch_index + 1));
         SetSectionUI();
-        if (!isFirstLevel)
-        {
-            if (isLastSectionComplete())
-                Unblock();
-            else
-                DoBlock();
-        }
-    }
-    private void Awake()
-    {
-        isBlocked = true;
     }
     public void DoBlock()
     {
         GetComponent<Button>().interactable = false;
         hoverImage.gameObject.SetActive(true);
-        if (checkImage.GetComponent<_2dxFX_GrayScale>() == null)
-            checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
+        foreach (Image img in allChapterImages)
+            img.gameObject.GetOrAddComponent<_2dxFX_GrayScale>();
     }
 
     private void Update()
     {
-        complete = isFirstLevel ? firstComplete() : isLastSectionComplete();
-        if (!isFirstLevel)
-        {
-            if (lastTabLevel.complete)
-            {
-                if (isBlocked)
-                    Unblock();
-            }
-        }
+        complete = chapterComplete();
     }
     public void Unblock()
     {
-        isBlocked = false;
+        if (isBlocked)
+            isBlocked = false;
         GetComponent<Button>().interactable = true;
         hoverImage.gameObject.SetActive(false);
         if (checkImage.GetComponent<_2dxFX_GrayScale>())
             Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
+        foreach (Image img in allChapterImages)
+        {
+            if (img.GetComponent<_2dxFX_GrayScale>())
+                Destroy(img.GetComponent<_2dxFX_GrayScale>());
+        }
+        PlayerPrefs.SetString("CHAPTER", "CHAPTER" + chapter);
     }
     private void SetSectionUI()
     {
@@ -72,17 +69,7 @@ public class ScrollLevel : MonoBehaviour
         }
         infoText.SetText(index + " from " + 12 + " levels completed!");
     }
-    public bool isLastSectionComplete()
-    {
-        for (int i = min - 12; i <= max - 12; i++)
-        {
-            string key = PlayerPrefs.GetString("Level" + i.ToString());
-            if (!PlayerPrefs.HasKey(key))
-                return false;
-        }
-        return true;
-    }
-    private bool firstComplete()
+    public bool chapterComplete()
     {
         for (int i = min; i <= max; i++)
         {

@@ -20,9 +20,9 @@ public class UtilitiesController : MonoBehaviour
     private void HideContent()
     {
         if (contentTween != null)
-            contentTween.Kill();
+            contentTween.Pause();
         contentBg.DOFade(0f, 0.25f);
-        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(0f, 0f, 25f), 0.2f).SetEase(Ease.Linear).OnComplete(() =>
+        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(0f, 0f, 25f), 0.25f).SetEase(Ease.Linear).OnComplete(() =>
         {
             if (contentAction != null)
                 contentAction.Invoke();
@@ -46,9 +46,9 @@ public class UtilitiesController : MonoBehaviour
     private void ShowContent()
     {
         if (contentTween != null)
-            contentTween.Kill();
+            contentTween.Pause();
         contentBg.DOFade(0.5f, 0.25f);
-        contentTween = settingContent.DORotateQuaternion(Quaternion.Euler(Vector3.zero), 0.2f).SetEase(Ease.Linear);
+        contentTween = settingContent.GetComponent<DOTweenAnimation>().tween;
     }
 
     ///Returns 'true' if we touched or hovering on Unity UI element.

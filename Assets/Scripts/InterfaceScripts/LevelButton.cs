@@ -11,7 +11,7 @@ public class LevelButton : MonoBehaviour
     public TextMeshProUGUI levelCounter;
     public Image checkImage;
     public Image levelScreenShotImage;
-    public event UnityAction OnButtonClick;
+    public event UnityAction<int> OnButtonClick;
     public bool passed = false;
     private void Start()
     {
@@ -19,9 +19,10 @@ public class LevelButton : MonoBehaviour
     }
     private void OpenGame()
     {
+        string[] txtCounter = levelCounter.text.Split(' ');
         if (OnButtonClick != null)
-            OnButtonClick.Invoke();
-        PlayerPrefs.SetInt("levelIndex", Convert.ToInt32(levelCounter.text) - 1);
+            OnButtonClick.Invoke(Convert.ToInt32(txtCounter[txtCounter.Length - 1]) - 1);
+        PlayerPrefs.SetInt("levelIndex", Convert.ToInt32(txtCounter[txtCounter.Length - 1]) - 1);
     }
 
     public void SetActive()

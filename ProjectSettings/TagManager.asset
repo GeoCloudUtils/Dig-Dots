@@ -9,6 +9,7 @@ TagManager:
   - redBall
   - utilitiesPanel
   - obstacle
+  - ratingScreen
   layers:
   - Default
   - TransparentFX

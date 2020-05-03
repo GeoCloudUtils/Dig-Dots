@@ -10,6 +10,7 @@ using UnityEngine.UI;
 
 public class InGameManager : MonoBehaviour
 {
+    public GameDataSave dataSave;
     public AdCaller adCaller;
     public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
@@ -22,56 +23,30 @@ public class InGameManager : MonoBehaviour
     public bool canClick = true;
     public int currentLevel = 0;
     private LevelController level = null;
-
     public int testLevelIndex = 0;
     public bool test = false;
-
     bool done = false;
 
-    public List<int> AdsSteps = new List<int>();
     void Start()
     {
+        dataSave = GameObject.FindObjectOfType<GameDataSave>();
         backButton.onClick.AddListener(GoHome);
         reloadButton.onClick.AddListener(DoReload);
         currentLevel = PlayerPrefs.GetInt("levelIndex");
         ResultCanvas.NextLevelEvent += ResultCanvas_NextLevelEvent;
-        GetAds();
         ShowLevel();
     }
-
-    private void GetAds()
+    private void ResultCanvas_NextLevelEvent(bool disableAdOnLoad)
     {
-        foreach (int number in EvenSequence(2, AllLevels.Length))
-            AdsSteps.Add(number);
+        PlayerPrefs.SetInt("levelIndex", currentLevel + 1);
+        LoadLevel(false, disableAdOnLoad);
     }
-    public static IEnumerable<int> EvenSequence(int firstNumber, int lastNumber)
-    {
-        // Yield even numbers in the range.
-        for (int number = firstNumber; number <= lastNumber - 1; number++)
-        {
-            if (number % 3 == 0)
-                yield return number;
-        }
-    }
-    private void ResultCanvas_NextLevelEvent()
-    {
-        if (AdsSteps.Contains(currentLevel))
-        {
-            AdsSteps.Clear();
-            adCaller.ShowAd(false);
-        }
-        else
-        {
-            PlayerPrefs.SetInt("levelIndex", currentLevel + 1);
-            LoadLevel(false);
-        }
-    }
-
     private void DoReload()
     {
-        LoadLevel(true);
+        if (!PlayerPrefs.HasKey("ReloadLevel"))
+            PlayerPrefs.SetInt("ReloadLevel", 0);
+        LoadLevel(true, false);
     }
-
     private void ShowLevel()
     {
         if (level != null)
@@ -93,22 +68,27 @@ public class InGameManager : MonoBehaviour
     {
         ResultCanvas.gameObject.SetActive(true);
         ResultCanvas.SetContent(done);
-        if (done)
-            PlayerPrefs.SetString("Level" + (currentLevel + 1).ToString(), "Level" + (currentLevel + 1).ToString());
         foreach (DOTweenAnimation buttonTween in buttonTweens)
             buttonTween.DOPlay();
     }
-
-    private void LoadLevel(bool reload)
+    private void LoadLevel(bool reload, bool disableAdOnLoad)
     {
         if (!canClick)
             return;
-        if (AdsSteps.Contains(currentLevel))
-            adCaller.ShowAd(false);
-        if (reload)
+        if (!reload)
         {
-            if (Random.value > 0.6f)
+            if ((dataSave.levelIndex > 2 && dataSave.levelIndex % 4 == 0) && !disableAdOnLoad)
                 adCaller.ShowAd(false);
+            dataSave.levelIndex++;
+        }
+        else
+        {
+            if (!ResultCanvas.gameObject.activeSelf)
+            {
+                if (dataSave.reloadIndex > 3 && dataSave.reloadIndex % 4 == 0)
+                    adCaller.ShowAd(false);
+            }
+            dataSave.reloadIndex++;
         }
         int nextLevelIndex = PlayerPrefs.GetInt("levelIndex");
         if (nextLevelIndex >= AllLevels.Length)
@@ -119,7 +99,7 @@ public class InGameManager : MonoBehaviour
         Navigator.getInstance().setLoadingScreenPrefab<LoadingScreen>(loadinScreen);
         Navigator.getInstance().LoadLevel("MainGame");
     }
-    private void GoHome()
+    public void GoHome()
     {
         if (!canClick)
             return;
