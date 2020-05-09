@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class loadingbar : MonoBehaviour
 {
+    public SountInit gManager;
     private RectTransform rectComponent;
     private Image imageComp;
     public float speed = 0.0f;
@@ -28,6 +29,11 @@ public class loadingbar : MonoBehaviour
                 loadStart = true;
                 LoadInterface();
             }
+        }
+        if (imageComp.fillAmount >= 0.5f)
+        {
+            if (!gManager.started)
+                gManager.Init();
         }
     }
     public GameObject loadingScreen;

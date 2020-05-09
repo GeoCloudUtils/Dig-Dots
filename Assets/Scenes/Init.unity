@@ -232,7 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 6866458631623068943, guid: fa4aa036da0137543acf09df1e16c6bd,
     type: 3}
-  delay: 2
+  delay: 0.25
 --- !u!1 &724419752
 GameObject:
   m_ObjectHideFlags: 0

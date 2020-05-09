@@ -26,8 +26,6 @@ public class GameDoneController : MonoBehaviour
 
     private int levelIndex = 0;
     private bool disableAdOnLoad = false;
-    private bool chapterCountReached = false;
-
 
     private int nextStept = 0;
     private void Start()
@@ -44,6 +42,7 @@ public class GameDoneController : MonoBehaviour
     {
         watchAdButton.gameObject.SetActive(false);
         nextLevelButton2.gameObject.SetActive(true);
+        nextLevelButton2.transform.GetChild(1).gameObject.SetActive(true);
         watchAdButton.interactable = false;
         disableAdOnLoad = true;
         adCaller.InitializeAd();
@@ -80,7 +79,7 @@ public class GameDoneController : MonoBehaviour
         LoadIcons();
         CanvasContents[good ? 0 : 1].SetActive(true);
         levelIndex = PlayerPrefs.GetInt("levelIndex");
-        textLevel.text = "Level" + " " + (levelIndex + 1) + "\n" + "COMPLETE";
+        textLevel.text = "Level" + " " + (levelIndex + 1) + " COMPLETE";
         if (good)
             PlayerPrefs.SetInt("level" + (levelIndex + 1).ToString(), 1);
         else

@@ -13,16 +13,21 @@ public class LevelButton : MonoBehaviour
     public Image levelScreenShotImage;
     public event UnityAction<int> OnButtonClick;
     public bool passed = false;
+    public int levelToOpen = 0;
     private void Start()
     {
         GetComponent<Button>().onClick.AddListener(OpenGame);
     }
     private void OpenGame()
     {
-        string[] txtCounter = levelCounter.text.Split(' ');
+        if (levelToOpen < 1)
+        {
+            Debug.LogError("Something goes wrong. Check LevelsContent Class for setting this levelIndex");
+            return;
+        }
         if (OnButtonClick != null)
-            OnButtonClick.Invoke(Convert.ToInt32(txtCounter[txtCounter.Length - 1]) - 1);
-        PlayerPrefs.SetInt("levelIndex", Convert.ToInt32(txtCounter[txtCounter.Length - 1]) - 1);
+            OnButtonClick.Invoke(levelToOpen - 1);
+        PlayerPrefs.SetInt("levelIndex", levelToOpen - 1);
     }
 
     public void SetActive()

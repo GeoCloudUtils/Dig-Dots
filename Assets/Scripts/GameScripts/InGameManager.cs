@@ -15,7 +15,6 @@ public class InGameManager : MonoBehaviour
     public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
     public LevelController[] AllLevels;
-    public DOTweenAnimation[] buttonTweens;
     public TextMeshProUGUI levelText;
     public GameObject loadinScreen;
     public Button backButton;
@@ -68,8 +67,6 @@ public class InGameManager : MonoBehaviour
     {
         ResultCanvas.gameObject.SetActive(true);
         ResultCanvas.SetContent(done);
-        foreach (DOTweenAnimation buttonTween in buttonTweens)
-            buttonTween.DOPlay();
     }
     private void LoadLevel(bool reload, bool disableAdOnLoad)
     {

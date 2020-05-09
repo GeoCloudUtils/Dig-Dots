@@ -13,7 +13,6 @@ public class InterfaceManager : MonoBehaviour
 {
     public ScrollLevel[] AllChapters;
     public GameObject loadingScreen;
-    public GameObject ratingScreen;
     public UtilitiesController utilitiesCanvas;
     public Button[] InterfaceButtons;
     public Button ratingButton;
@@ -29,7 +28,6 @@ public class InterfaceManager : MonoBehaviour
             {
                 OpenUtilitiesCanvas(btn);
             });
-        ratingButton.onClick.AddListener(OpenRating);
         utilitiesCanvas.contentAction += SettingCanvas_contentAction;
         snapContent.ShowLevelsContent += SnapContent_ShowLevelsContent;
         level.backToSectionsEvent += Level_backToSectionsEvent;
@@ -40,18 +38,7 @@ public class InterfaceManager : MonoBehaviour
         if (saveData != null)
             Destroy(saveData.gameObject);
         SetChaptersMax();
-
     }
-
-    private void OpenRating()
-    {
-        ratingScreen.SetActive(true);
-    }
-    public void CloseRating()
-    {
-        ratingScreen.SetActive(false);
-    }
-
     private void SetChaptersMax()
     {
         chaptersLevelsMax[0] = 12;
@@ -112,6 +99,7 @@ public class InterfaceManager : MonoBehaviour
         for (int i = 0; i < utilitiesCanvas.settingContent.transform.childCount - 1; i++)
             utilitiesCanvas.settingContent.transform.GetChild(i).gameObject.SetActive(false);
     }
+
     private void OpenUtilitiesCanvas(Button button)
     {
         int targetIndex = System.Array.IndexOf(InterfaceButtons, button);
@@ -128,15 +116,7 @@ public class InterfaceManager : MonoBehaviour
             PlayerPrefs.DeleteAll();
             clearLocalStorage = false;
         }
-        if (Input.GetMouseButton(0))
-        {
-            if (IsPointerOverUIElement())
-            {
-                return;
-            }
-            else
-                CloseRating();
-        }
+
         CheckChapters();
     }
 

@@ -49,6 +49,7 @@ public class LevelsContent : MonoBehaviour
                 btn.SetInactive();
             if (btn.levelCounter != null)
                 btn.levelCounter.SetText("   Level " + ((counter + i) + 1).ToString());
+            btn.levelToOpen = (counter + i) + 1;
         }
     }
     private void DoBack()

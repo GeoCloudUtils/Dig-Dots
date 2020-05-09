@@ -7,17 +7,21 @@ using UnityEngine.Events;
 
 public class LevelController : MonoBehaviour
 {
+    public AudioClip goodFX;
+    public AudioClip badFX;
     public ParticleCleanerEvent[] FX;
     public Rigidbody2D redBall;
     public Rigidbody2D blueBall;
     public event UnityAction<bool> gameDoneEvent;
 
     private int currentLevel = 0;
+    private InterfaceSountController sManager;
     void Start()
     {
         redBall.gameObject.AddComponent<ColliderEventSystem>().ColliderEntered += GameController_ColliderEntered;
         blueBall.gameObject.AddComponent<ColliderEventSystem>().ColliderEntered += GameController_ColliderEntered;
         currentLevel = PlayerPrefs.GetInt("levelIndex");
+        sManager = FindObjectOfType<InterfaceSountController>();
     }
     private void GameController_ColliderEntered(ColliderEventSystem eventTarget, Collider2D other)
     {
@@ -25,6 +29,7 @@ public class LevelController : MonoBehaviour
         {
             FreezeBalls();
             GameDone(other.tag == "blueBall", eventTarget);
+            sManager.PlaySound(other.tag == "obstacle" ? badFX : goodFX);
         }
     }
     private void FreezeBalls()
