@@ -12,7 +12,6 @@ using UnityEngine.UI;
 
 public class GameDoneController : MonoBehaviour
 {
-    public AdCaller adCaller;
     public ScreenshotHandler scHandler;
     public GameObject[] CanvasContents;
     public GameObject alertScreen;
@@ -20,12 +19,11 @@ public class GameDoneController : MonoBehaviour
     public Button nextLevelButton;
     public Button nextLevelButton2;
     public Button watchAdButton;
-    public event UnityAction<bool> NextLevelEvent;
+    public event UnityAction NextLevelEvent;
     public TextMeshProUGUI textLevel;
     public Sprite[] Icons; // icons array
 
     private int levelIndex = 0;
-    private bool disableAdOnLoad = false;
 
     private int nextStept = 0;
     private void Start()
@@ -33,9 +31,7 @@ public class GameDoneController : MonoBehaviour
         nextLevelButton.onClick.AddListener(LoadNextLevel);
         nextLevelButton2.onClick.AddListener(LoadNextLevel);
         watchAdButton.onClick.AddListener(WatchAd);
-        disableAdOnLoad = false;
         nextStept = PlayerPrefs.GetInt("CHAPTER_MAX");
-        Debug.Log(nextStept);
     }
 
     private void WatchAd()
@@ -44,14 +40,13 @@ public class GameDoneController : MonoBehaviour
         nextLevelButton2.gameObject.SetActive(true);
         nextLevelButton2.transform.GetChild(1).gameObject.SetActive(true);
         watchAdButton.interactable = false;
-        disableAdOnLoad = true;
-        adCaller.InitializeAd();
-        adCaller.ShowAd(true);
-        //LoadNextLevel();
     }
 
     private void LoadNextLevel()
     {
+        nextLevelButton.interactable = false;
+        if (nextLevelButton2.gameObject.activeSelf)
+            nextLevelButton2.interactable = false;
         if ((levelIndex + 1) >= nextStept)
         {
             if (!canGoNext())
@@ -62,7 +57,7 @@ public class GameDoneController : MonoBehaviour
             }
         }
         if (NextLevelEvent != null)
-            NextLevelEvent.Invoke(disableAdOnLoad);
+            NextLevelEvent.Invoke();
     }
 
     private bool canGoNext()

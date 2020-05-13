@@ -3,15 +3,16 @@ using ScriptUtils.Interface;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class loadingbar : MonoBehaviour
 {
-    public SountInit gManager;
     private RectTransform rectComponent;
     private Image imageComp;
     public float speed = 0.0f;
     private bool loadStart = false;
+    public event UnityAction fillDone;
     void Start()
     {
         rectComponent = GetComponent<RectTransform>();
@@ -27,19 +28,9 @@ public class loadingbar : MonoBehaviour
             if (!loadStart)
             {
                 loadStart = true;
-                LoadInterface();
+                if (fillDone != null)
+                    fillDone.Invoke();
             }
         }
-        if (imageComp.fillAmount >= 0.5f)
-        {
-            if (!gManager.started)
-                gManager.Init();
-        }
-    }
-    public GameObject loadingScreen;
-    public void LoadInterface()
-    {
-        Navigator.getInstance().setLoadingScreenPrefab<LoadingScreen>(loadingScreen);
-        Navigator.getInstance().LoadLevel("Menu");
     }
 }

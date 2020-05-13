@@ -34,7 +34,7 @@ public class InterfaceManager : MonoBehaviour
         level.DispatchLevelOpen += Level_DispatchLevelOpen;
         interactable = true;
         chaptersLevelsMax = new int[AllChapters.Length];
-        GameDataSave saveData = FindObjectOfType<GameDataSave>();
+        GameAdCounter saveData = FindObjectOfType<GameAdCounter>();
         if (saveData != null)
             Destroy(saveData.gameObject);
         SetChaptersMax();

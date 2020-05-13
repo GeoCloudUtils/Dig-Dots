@@ -10,8 +10,6 @@ using UnityEngine.UI;
 
 public class InGameManager : MonoBehaviour
 {
-    public GameDataSave dataSave;
-    public AdCaller adCaller;
     public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
     public LevelController[] AllLevels;
@@ -28,23 +26,23 @@ public class InGameManager : MonoBehaviour
 
     void Start()
     {
-        dataSave = GameObject.FindObjectOfType<GameDataSave>();
         backButton.onClick.AddListener(GoHome);
         reloadButton.onClick.AddListener(DoReload);
         currentLevel = PlayerPrefs.GetInt("levelIndex");
         ResultCanvas.NextLevelEvent += ResultCanvas_NextLevelEvent;
         ShowLevel();
     }
-    private void ResultCanvas_NextLevelEvent(bool disableAdOnLoad)
+    private void ResultCanvas_NextLevelEvent()
     {
         PlayerPrefs.SetInt("levelIndex", currentLevel + 1);
-        LoadLevel(false, disableAdOnLoad);
+        LoadLevel();
     }
     private void DoReload()
     {
-        if (!PlayerPrefs.HasKey("ReloadLevel"))
-            PlayerPrefs.SetInt("ReloadLevel", 0);
-        LoadLevel(true, false);
+        if (FindObjectOfType<LoadingScreen>() != null)
+            return;
+        reloadButton.interactable = false;
+        LoadLevel();
     }
     private void ShowLevel()
     {
@@ -68,25 +66,10 @@ public class InGameManager : MonoBehaviour
         ResultCanvas.gameObject.SetActive(true);
         ResultCanvas.SetContent(done);
     }
-    private void LoadLevel(bool reload, bool disableAdOnLoad)
+    private void LoadLevel()
     {
         if (!canClick)
             return;
-        if (!reload)
-        {
-            if ((dataSave.levelIndex > 2 && dataSave.levelIndex % 4 == 0) && !disableAdOnLoad)
-                adCaller.ShowAd(false);
-            dataSave.levelIndex++;
-        }
-        else
-        {
-            if (!ResultCanvas.gameObject.activeSelf)
-            {
-                if (dataSave.reloadIndex > 3 && dataSave.reloadIndex % 4 == 0)
-                    adCaller.ShowAd(false);
-            }
-            dataSave.reloadIndex++;
-        }
         int nextLevelIndex = PlayerPrefs.GetInt("levelIndex");
         if (nextLevelIndex >= AllLevels.Length)
         {

@@ -4,64 +4,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.Monetization;
-public class AdCaller : MonoBehaviour, IUnityAdsListener
+using UnityEngine.Timeline;
+
+public class AdCaller : MonoBehaviour
 {
     private string adId = "3574560";
-    private string videoId = "video";
-    private string rewardedId = "rewardedVideo";
-
+    private GameAdCounter adCounter;
     [Obsolete]
     void Start()
     {
-        Monetization.Initialize(adId, true);
+        Advertisement.Initialize(adId, true);
+        if (adCounter == null)
+            adCounter = FindObjectOfType<GameAdCounter>();
     }
-
-    public void InitializeAd()
+    public void CountAds()
     {
-        Monetization.Initialize(adId, true);
-    }
-    public void ShowAd(bool rewarded)
-    {
-        if (Monetization.IsReady(rewarded ? rewardedId : videoId))
+        adCounter.counter++;
+        if (adCounter.counter == adCounter.nextStetp)
         {
-            ShowAdPlacementContent ad = Monetization.GetPlacementContent(rewarded ? rewardedId : videoId) as ShowAdPlacementContent;
-            if (ad != null)
-                ad.Show();
-            else
-                Debug.LogError("Ad is null!");
+            ShowAd();
+            adCounter.nextStetp += adCounter.step;
         }
     }
-
-    public void OnUnityAdsReady(string placementId)
+    public void ShowAd()
     {
-        Debug.Log("Ads is ready");
-    }
-
-    public void OnUnityAdsDidError(string message)
-    {
-        Debug.Log(message);
-    }
-
-    public void OnUnityAdsDidStart(string placementId)
-    {
-        Debug.Log("Ads started");
-    }
-    public void OnUnityAdsDidFinish(string placementId, UnityEngine.Advertisements.ShowResult showResult)
-    {
-        // Define conditional logic for each ad completion status:
-        if (showResult == UnityEngine.Advertisements.ShowResult.Finished)
-        {
-            // Reward the user for watching the ad to completion.
-            Debug.Log("Ads finished");
-        }
-        else if (showResult == UnityEngine.Advertisements.ShowResult.Skipped)
-        {
-            // Do not reward the user for skipping the ad.
-            Debug.Log("Ads skipped");
-        }
-        else if (showResult == UnityEngine.Advertisements.ShowResult.Failed)
-        {
-            Debug.LogWarning("The ad did not finish due to an error.");
-        }
+        Advertisement.Show();
     }
 }
