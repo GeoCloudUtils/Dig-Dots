@@ -5,7 +5,7 @@ using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
-public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
+public class RewardedAdsButton : MonoBehaviour
 {
     private string gameId = "3574560";
 
@@ -23,7 +23,6 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
         if (myButton) myButton.onClick.AddListener(ShowRewardedVideo);
 
         // Initialize the Ads listener and service:
-        Advertisement.AddListener(this);
         Advertisement.Initialize(gameId, true);
     }
 

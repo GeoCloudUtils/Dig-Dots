@@ -51,6 +51,7 @@ public class RuntimeCircleClipper : MonoBehaviour, IClip
 
     public float touchMoveDistance = 0.1f;
     public bool canDig = false;
+    public bool clipping = false;
 
     private Vector2f currentTouchPoint;
 
@@ -150,6 +151,7 @@ public class RuntimeCircleClipper : MonoBehaviour, IClip
     {
         if (TouchUtility.TouchCount > 0)
         {
+           
             Touch touch = TouchUtility.GetTouch(0);
             Vector2 touchPosition = touch.position;
 
@@ -180,6 +182,8 @@ public class RuntimeCircleClipper : MonoBehaviour, IClip
                 previousTouchPoint = currentTouchPoint;
             }
         }
+        else
+            clipping = false;
     }
 
     void BuildVertices(Vector2 center)
