@@ -2,6 +2,7 @@
 using ScriptUtils.GameUtils;
 using ScriptUtils.Interface;
 using ScriptUtils.Visual;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using TMPro;
@@ -12,11 +13,13 @@ public class InGameManager : MonoBehaviour
 {
     public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
+    public GameObject hintPanel;
     public LevelController[] AllLevels;
     public TextMeshProUGUI levelText;
     public GameObject loadinScreen;
     public Button backButton;
     public Button reloadButton;
+    public Button hintButton;
     public bool canClick = true;
     public int currentLevel = 0;
     private LevelController level = null;
@@ -28,10 +31,25 @@ public class InGameManager : MonoBehaviour
     {
         backButton.onClick.AddListener(GoHome);
         reloadButton.onClick.AddListener(DoReload);
+        hintButton.onClick.AddListener(OpenHintPanel);
         currentLevel = PlayerPrefs.GetInt("levelIndex");
         ResultCanvas.NextLevelEvent += ResultCanvas_NextLevelEvent;
         ShowLevel();
     }
+
+    private void OpenHintPanel()
+    {
+        hintPanel.SetActive(true);
+        Button closeHintBtn = hintPanel.GetComponentInChildren<Button>();
+        closeHintBtn.onClick.AddListener(delegate { CloseHintPanel(closeHintBtn); });
+    }
+
+    private void CloseHintPanel(Button btn)
+    {
+        btn.onClick.RemoveAllListeners();
+        hintPanel.SetActive(false);
+    }
+
     private void ResultCanvas_NextLevelEvent()
     {
         PlayerPrefs.SetInt("levelIndex", currentLevel + 1);
