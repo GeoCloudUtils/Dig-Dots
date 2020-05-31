@@ -17,7 +17,6 @@ public class LevelsContent : MonoBehaviour
         backButton.onClick.AddListener(DoBack);
         foreach (LevelButton btn in LevelButtons)
             btn.OnButtonClick += Btn_OnButtonClick;
-        LoadIcons();
     }
 
     private void Awake()
@@ -43,13 +42,13 @@ public class LevelsContent : MonoBehaviour
             btn.name = "Level" + ((counter + 1) + i);
             string levelStr = PlayerPrefs.GetString("Level" + ((counter + 1) + i).ToString());
             string levelName = btn.name;
+            btn.levelToOpen = (counter + i) + 1;
             if (levelStr.Equals(levelName))
                 btn.SetActive();
             else
                 btn.SetInactive();
             if (btn.levelCounter != null)
                 btn.levelCounter.SetText("   Level " + ((counter + i) + 1).ToString());
-            btn.levelToOpen = (counter + i) + 1;
         }
     }
     private void DoBack()
@@ -63,20 +62,5 @@ public class LevelsContent : MonoBehaviour
             LevelButtons[i].gameObject.SetActive(false);
         if (backToSectionsEvent != null)
             backToSectionsEvent.Invoke();
-    }
-    void LoadIcons()
-    {
-        object[] loadedIcons = Resources.LoadAll("LevelsScreenshots/section1", typeof(Sprite));
-        Icons = new Sprite[LevelButtons.Length];
-        for (int x = 0; x < loadedIcons.Length; x++)
-            Icons[x] = (Sprite)loadedIcons[x];
-        for (int i = 0; i < LevelButtons.Length; i++)
-        {
-            for (int k = 0; k < Icons.Length; k++)
-            {
-                if (Icons[k].name == "level" + (i + 1))
-                    LevelButtons[i].levelScreenShotImage.sprite = Icons[k];
-            }
-        }
     }
 }

@@ -101,7 +101,6 @@ public class Settings : MonoBehaviour
             else
                 PlayerPrefs.SetInt("SoundState", 1);
         }
-        Debug.Log(PlayerPrefs.GetInt("SoundState"));
         soundButton.GetComponent<Image>().sprite = PlayerPrefs.GetInt("SoundState") == 1 ? soundSwitchSourceImageON : soundSwitchSourceImageOFF;
         ON_Text.gameObject.SetActive(soundButton.GetComponent<Image>().sprite == soundSwitchSourceImageON);
         OFF_Text.gameObject.SetActive(!ON_Text.gameObject.activeSelf);

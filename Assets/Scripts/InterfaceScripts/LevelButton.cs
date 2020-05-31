@@ -6,6 +6,9 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
+using ScriptUtils.Common;
+
 public class LevelButton : MonoBehaviour
 {
     public TextMeshProUGUI levelCounter;
@@ -29,25 +32,45 @@ public class LevelButton : MonoBehaviour
             OnButtonClick.Invoke(levelToOpen - 1);
         PlayerPrefs.SetInt("levelIndex", levelToOpen - 1);
     }
+    private void Update()
+    {
+        if (levelScreenShotImage.sprite == null)
+        {
+            Debug.Log("T");
+            string a = "Level" + levelToOpen;
+            string path = "LevelsScreenshots/" + a;
+            var lScreenShoot = Resources.Load<Sprite>(path);
+            if (lScreenShoot != null)
+                levelScreenShotImage.sprite = lScreenShoot;
+            else
+                levelScreenShotImage.sprite = null;
 
+        }
+        if (checkImage.GetComponent<_2dxFX_GrayScale>() == null)
+        {
+            if (levelScreenShotImage.sprite != null)
+            {
+                if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() != null)
+                    Destroy(levelScreenShotImage.gameObject.GetComponent<_2dxFX_GrayScale>());
+            }
+        }
+        if (checkImage.GetComponent<_2dxFX_GrayScale>() != null)
+        {
+            if (levelScreenShotImage.sprite != null)
+            {
+                if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() == null)
+                    levelScreenShotImage.gameObject.AddComponent<_2dxFX_GrayScale>();
+            }
+        }
+    }
     public void SetActive()
     {
         if (checkImage.GetComponent<_2dxFX_GrayScale>() != null)
             Destroy(checkImage.GetComponent<_2dxFX_GrayScale>());
-        if (levelScreenShotImage.sprite != null)
-        {
-            if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() != null)
-                Destroy(levelScreenShotImage.gameObject.GetComponent<_2dxFX_GrayScale>());
-        }
     }
     public void SetInactive()
     {
         if (checkImage.gameObject.GetComponent<_2dxFX_GrayScale>() == null)
             checkImage.gameObject.AddComponent<_2dxFX_GrayScale>();
-        if (levelScreenShotImage.sprite != null)
-        {
-            if (levelScreenShotImage.GetComponent<_2dxFX_GrayScale>() == null)
-                levelScreenShotImage.gameObject.AddComponent<_2dxFX_GrayScale>();
-        }
     }
 }

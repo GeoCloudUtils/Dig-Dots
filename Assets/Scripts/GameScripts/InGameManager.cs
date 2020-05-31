@@ -14,6 +14,7 @@ public class InGameManager : MonoBehaviour
     public ParticleCleanerEvent FX;
     public GameDoneController ResultCanvas;
     public GameObject hintPanel;
+    public GameObject levelParent;
     public LevelController[] AllLevels;
     public TextMeshProUGUI levelText;
     public GameObject loadinScreen;
@@ -27,6 +28,10 @@ public class InGameManager : MonoBehaviour
     public bool test = false;
     bool done = false;
 
+    private void Awake()
+    {
+        AllLevels = levelParent.GetComponentsInChildren<LevelController>(true);
+    }
     void Start()
     {
         backButton.onClick.AddListener(GoHome);
