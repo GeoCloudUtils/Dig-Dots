@@ -8,19 +8,25 @@ using ScriptUtils.Interface;
 using ScriptUtils.GameUtils;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using Lean.Gui;
+using TMPro;
 
 public class InterfaceManager : MonoBehaviour
 {
+    public int totalCoins = 0;
     public ScrollLevel[] AllChapters;
+    public TextMeshProUGUI t_cointsText;
+    public GameObject skinScreen;
     public GameObject loadingScreen;
     public UtilitiesController utilitiesCanvas;
     public Button[] InterfaceButtons;
-    public Button ratingButton;
+    public Button skin_button;
     public ScrolSnapContent snapContent;
     public LevelsContent level;
     public bool clearLocalStorage = false;
     private bool interactable = true;
     public int[] chaptersLevelsMax;
+    public bool forceAddCoins = false;
     private void Start()
     {
         foreach (Button btn in InterfaceButtons)
@@ -32,13 +38,27 @@ public class InterfaceManager : MonoBehaviour
         snapContent.ShowLevelsContent += SnapContent_ShowLevelsContent;
         level.backToSectionsEvent += Level_backToSectionsEvent;
         level.DispatchLevelOpen += Level_DispatchLevelOpen;
+        skin_button.onClick.AddListener(OpneSkinScreen);
         interactable = true;
         chaptersLevelsMax = new int[AllChapters.Length];
         GameAdCounter saveData = FindObjectOfType<GameAdCounter>();
         if (saveData != null)
             Destroy(saveData.gameObject);
+        if (!PlayerPrefs.HasKey("TotalCoins"))
+            PlayerPrefs.SetInt("TotalCoins", totalCoins);
+        if (forceAddCoins)
+        {
+            PlayerPrefs.SetInt("TotalCoins", totalCoins);
+        }
         SetChaptersMax();
     }
+
+    private void OpneSkinScreen()
+    {
+        skinScreen.SetActive(true);
+        skinScreen.GetComponentInChildren<LeanWindow>().On = true;
+    }
+
     private void SetChaptersMax()
     {
         chaptersLevelsMax[0] = 12;
@@ -116,7 +136,9 @@ public class InterfaceManager : MonoBehaviour
             PlayerPrefs.DeleteAll();
             clearLocalStorage = false;
         }
-
+        if (PlayerPrefs.HasKey("TotalCoins"))
+            t_cointsText.SetText(PlayerPrefs.GetInt("TotalCoins").ToString());
+        skin_button.gameObject.SetActive(snapContent.gameObject.activeSelf);
         CheckChapters();
     }
 
